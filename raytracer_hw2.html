@@ -33,5 +33,315 @@
 		<h2 style="color: red;">
 			Homework 2
 		</h2>
+		<h3 style="color: red;">
+			Fixing Chinese Dragon Render
+		</h3>
+		<p>
+			In homework 1, my render of the Chinese dragon was incorrect, as you can see below:
+			<br />
+			<br />
+			<img style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;"
+				src="hw1_images/chinese_dragon.png">
+			<br />
+			<br />
+			I realized that the broken render was caused by precision errors in my functions. My custom math library
+			uses SSE4 instructions for vector math, so everything runs on 128-bit registers and uses floats. Each vector
+			holds four floats, and all operations are done on all four components at once.
+			<br />
+			<br />
+			Using double would fix the issue, but doing that would require rewriting my entire math library from the
+			ground up. One double is 64 bits, and four doubles take 256 bits of space, which SSE4 cannot handle. I would
+			need to move to a newer instruction set like AVX, and that is a lot of work. I definitely do not want to
+			rewrite the math library.
+			<br />
+			<br />
+			After thinking about it for a while, I found a simpler solution. I updated my triangle intersection function
+			to scale the vertices by 1000 when calculating the ray intersection. With that change, I got this result:
+			<br />
+			<br />
+			<img style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;"
+				src="hw2_images/chinese_dragon_wrong_normals.png">
+			<br />
+			<br />
+			Then I realized I had to do the same thing for the normal calculation of the triangles. I modified the
+			triangle class constructor so it calculates the triangle normal using the vertices multiplied by 1000. With
+			that change, I finally got the expected result:
+			<br />
+			<br />
+			<img style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;"
+				src="hw2_images/chinese_dragon.png">
+			<br />
+			<br />
+			I fixed the precision mistake without altering my math library.
+		</p>
+		<h3 style="color: red;">
+			Smooth Shading is Done
+		</h3>
+		<p>
+			I also implemented the smooth shading feature. Here are some samples from homework 1 rendered with smooth
+			shading:
+			<br />
+			<br />
+			<img style="text-align: center; max-height: 50vw; flex: auto; max-width: 30vw; margin: auto;"
+				src="hw2_images/Car_front_smooth.png">
+			<img style="text-align: center; max-height: 50vw; flex: auto; max-width: 30vw; margin: auto;"
+				src="hw2_images/Car_smooth.png">
+			<br />
+			<br />
+		</p>
+		<h3 style="color: red;">
+			Realizing Critical Bug in Grid Acceleration Structure
+		</h3>
+		<p>
+			My grid acceleration structure creates voxels on the x, y, and z axes by heuristically counting them based
+			on the world size and volume. Since my plane shape has an infinite AABB, this calculation was incorrect, and
+			any scene containing a plane ended up running with a 1x1x1 grid. I fixed the issue by excluding plane shapes
+			from the world size calculation and handling plane intersections separately. For example, the
+			bunny_with_plane scene originally finished in 29733 ms. After fixing the bug, it now completes in 186 ms.
+		</p>
+		<h3 style="color: red;">
+			Newly Added Features For Homework 2
+		</h3>
+		<ol style="list-style-type: disc; padding-left: 20px;">
+			<li>Transformations for shapes, lights, and cameras</li>
+			<br />
+			<li>Instancing</li>
+			<br />
+			<li>Refined grid acceleration structure</li>
+			<br />
+			<li>Converting numbered images to video by calling FFmpeg</li>
+		</ol>
+		<h3 style="color: red;">
+			Resulting Images and Videos
+		</h3>
+		<div class="slideshow-container" style="max-height: 50vw; margin: auto;">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 13</div>
+				<img src="./hw2_images/marching_dragons.png">
+				<div class="text">marching_dragons.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 13</div>
+				<img src="./hw2_images/dragon_metal.png">
+				<div class="text">dragon_metal.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 13</div>
+				<img src="./hw2_images/dragon_new_right.png">
+				<div class="text">dragon_new_right.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 13</div>
+				<img src="./hw2_images/dragon_new_top.png">
+				<div class="text">dragon_new_top.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 13</div>
+				<img src="./hw2_images/dragon_new.png">
+				<div class="text">dragon_new.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 13</div>
+				<img src="./hw2_images/ellipsoids.png">
+				<div class="text">ellipsoids.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 13</div>
+				<img src="./hw2_images/glaring_davids.png">
+				<div class="text">glaring_davids.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 13</div>
+				<img src="./hw2_images/grass_desert.png">
+				<div class="text">grass_desert.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 13</div>
+				<img src="./hw2_images/metal_glass_plates.png">
+				<div class="text">metal_glass_plates.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">10 / 13</div>
+				<img src="./hw2_images/mirror_room.png">
+				<div class="text">mirror_room.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">11 / 13</div>
+				<img src="./hw2_images/simple_transform.png">
+				<div class="text">simple_transform.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">12 / 13</div>
+				<img src="./hw2_images/spheres.png">
+				<div class="text">spheres.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">13 / 13</div>
+				<img src="./hw2_images/two_berserkers.png">
+				<div class="text">two_berserkers.png</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br />
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+			<span class="dot" onclick="currentSlide(9)"></span>
+			<span class="dot" onclick="currentSlide(10)"></span>
+			<span class="dot" onclick="currentSlide(11)"></span>
+			<span class="dot" onclick="currentSlide(12)"></span>
+			<span class="dot" onclick="currentSlide(13)"></span>
+		</div>
+		<br />
+		<script src="./slider.js"></script>
+		<video style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;" controls>
+			<source src="./hw2_images/windmill.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<p style="text-align: center;">windmill</p>
+		<br />
+		<video style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;" controls>
+			<source src="./hw2_images/davids_camera_zoom.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<p style="text-align: center;">davids_camera_zoom</p>
+		<br />
+		<video style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;" controls>
+			<source src="./hw2_images/davids_camera.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<p style="text-align: center;">davids_camera</p>
+		<br />
+		<video style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;" controls>
+			<source src="./hw2_images/davids.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<p style="text-align: center;">davids</p>
+		<br />
+		<h3 style="color: red;">
+			Performance Results
+		</h3>
+		<p>
+			The performance results shown below were measured on a PC with an i5-12400F processor and 16 GB of
+			RAM. The program ran with 12 threads during the rendering phase, SIMD
+			optimization was active, and a uniform grid acceleration structure was used. Since my program does
+			not use the GPU, the GPU hardware is irrelevant. These results were obtained from a single run.
+		</p>
+		<table>
+			<tr>
+				<th>Scene</th>
+				<th>Json parse and prepare time (ms)</th>
+				<th>Render time (ms)</th>
+				<th>Save image time (ms)</th>
+			</tr>
+			<tr>
+				<td>marching_dragons.png</td>
+				<td>1604</td>
+				<td>69150</td>
+				<td>164</td>
+			</tr>
+			<tr>
+				<td>dragon_metal.png</td>
+				<td>1513</td>
+				<td>13393</td>
+				<td>111</td>
+			</tr>
+			<tr>
+				<td>dragon_new_right.png</td>
+				<td>239</td>
+				<td>25846</td>
+				<td>32</td>
+			</tr>
+			<tr>
+				<td>dragon_new_top.png</td>
+				<td>247</td>
+				<td>57517</td>
+				<td>39</td>
+			</tr>
+			<tr>
+				<td>dragon_new.png</td>
+				<td>261</td>
+				<td>10777</td>
+				<td>34</td>
+			</tr>
+			<tr>
+				<td>ellipsoids.png</td>
+				<td>15</td>
+				<td>91</td>
+				<td>24</td>
+			</tr>
+			<tr>
+				<td>glaring_davids.png</td>
+				<td>502</td>
+				<td>4747</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>grass_desert.png</td>
+				<td>103</td>
+				<td>306749</td>
+				<td>107</td>
+			</tr>
+			<tr>
+				<td>metal_glass_plates.png</td>
+				<td>20</td>
+				<td>2044</td>
+				<td>26</td>
+			</tr>
+			<tr>
+				<td>mirror_room.png</td>
+				<td>19</td>
+				<td>223</td>
+				<td>42</td>
+			</tr>
+			<tr>
+				<td>simple_transform.png</td>
+				<td>20</td>
+				<td>54</td>
+				<td>29</td>
+			</tr>
+			<tr>
+				<td>spheres.png</td>
+				<td>20</td>
+				<td>67</td>
+				<td>29</td>
+			</tr>
+			<tr>
+				<td>two_berserkers.png</td>
+				<td>134</td>
+				<td>238</td>
+				<td>36</td>
+			</tr>
+		</table>
+		<h3 style="color: red;">
+			Self-Critique
+		</h3>
+		<p>
+			I think my only flaw in this homework is the white artifacts in the grass_desert scene rendering. I haven't
+			determined the cause yet, but I will try to fix it in the future.
+		</p>
 	</div>
+	<br />
+	<br />
 </body>
