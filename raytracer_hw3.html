@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Şükrü Çiriş Blogs</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+
+	<ul>
+		<li><a href="index.html">Main Page</a></li>
+		<li><a href="raytracer.html">Ray Tracer</a></li>
+		<li class="sp">
+			<a href="https://sukruciris.com">Who is Şükrü Çiriş?</a>
+		</li>
+	</ul>
+
+	<br />
+	<br />
+
+	<div style="text-align: left; max-width: 70vw; margin: auto; font-weight: bold;">
+		<h3>
+			This blog has been written as a homework assignment for the Middle East Technical University
+			2025–2026 CENG 795 Special Topics: Advanced Ray Tracing course by Şükrü Çiriş.
+			It aims to present <a class="link" href="https://github.com/SUKRUCIRIS/raytracer">
+				my raytracer repository</a>, which contains the code developed for the
+			assignment.
+		</h3>
+		<h2 style="color: red;">
+			Homework 3
+		</h2>
+		<h3 style="color: red;">
+			Newly Added Features For Homework 3
+		</h3>
+		<ol style="list-style-type: disc; padding-left: 20px;">
+			<li>Arealight</li>
+			<br />
+			<li>Multisampling</li>
+			<br />
+			<li>Depth of Field</li>
+			<br />
+			<li>Motionblur</li>
+			<br />
+			<li>Rough Reflections and Refractions</li>
+			<br />
+			<li>Replaced the Grid Structure with BVH</li>
+		</ol>
+		<h3 style="color: red;">
+			Resulting Images and Videos
+		</h3>
+		<div class="slideshow-container" style="max-height: 50vw; margin: auto;">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 12</div>
+				<img src="./hw3_images/chessboard_arealight_dof_glass_queen.png">
+				<div class="text">chessboard_arealight_dof_glass_queen.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 12</div>
+				<img src="./hw3_images/chessboard_arealight_dof.png">
+				<div class="text">chessboard_arealight_dof.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 12</div>
+				<img src="./hw3_images/chessboard_arealight.png">
+				<div class="text">chessboard_arealight.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 12</div>
+				<img src="./hw3_images/cornellbox_area.png">
+				<div class="text">cornellbox_area.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 12</div>
+				<img src="./hw3_images/cornellbox_boxes_dynamic.png">
+				<div class="text">cornellbox_boxes_dynamic.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 12</div>
+				<img src="./hw3_images/cornellbox_brushed_metal.png">
+				<div class="text">cornellbox_brushed_metal.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 12</div>
+				<img src="./hw3_images/deadmau5.png">
+				<div class="text">deadmau5.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 12</div>
+				<img src="./hw3_images/dragon_dynamic.png">
+				<div class="text">dragon_dynamic.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 12</div>
+				<img src="./hw3_images/focusing_dragons.png">
+				<div class="text">focusing_dragons.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">10 / 12</div>
+				<img src="./hw3_images/metal_glass_plates.png">
+				<div class="text">metal_glass_plates.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">11 / 12</div>
+				<img src="./hw3_images/spheres_dof.png">
+				<div class="text">spheres_dof.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">12 / 12</div>
+				<img src="./hw3_images/wine_glass.png">
+				<div class="text">wine_glass.png</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br />
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+			<span class="dot" onclick="currentSlide(9)"></span>
+			<span class="dot" onclick="currentSlide(10)"></span>
+			<span class="dot" onclick="currentSlide(11)"></span>
+			<span class="dot" onclick="currentSlide(12)"></span>
+		</div>
+		<br />
+		<script src="./slider.js"></script>
+		<video style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;" controls>
+			<source src="./hw3_images/tap.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<p style="text-align: center;">tap</p>
+		<br />
+		<h3 style="color: red;">
+			Performance Results
+		</h3>
+		<p>
+			The performance results shown below were measured on a PC with an i5-13420H processor and 16 GB of
+			RAM. The program ran with 12 threads during the rendering phase, SIMD
+			optimization was active, and a uniform grid acceleration structure was used. Since my program does
+			not use the GPU, the GPU hardware is irrelevant. These results were obtained from a single run.
+		</p>
+		<table>
+			<tr>
+				<th>Scene</th>
+				<th>Json parse and prepare time (ms)</th>
+				<th>Render time (ms)</th>
+				<th>Save image time (ms)</th>
+			</tr>
+			<tr>
+				<td>chessboard_arealight_dof_glass_queen.png</td>
+				<td>67</td>
+				<td>104626</td>
+				<td>34</td>
+			</tr>
+			<tr>
+				<td>chessboard_arealight_dof.png</td>
+				<td>71</td>
+				<td>51997</td>
+				<td>37</td>
+			</tr>
+			<tr>
+				<td>chessboard_arealight.png</td>
+				<td>63</td>
+				<td>50319</td>
+				<td>33</td>
+			</tr>
+			<tr>
+				<td>cornellbox_area.png</td>
+				<td>11</td>
+				<td>28598</td>
+				<td>43</td>
+			</tr>
+			<tr>
+				<td>cornellbox_boxes_dynamic.png</td>
+				<td>11</td>
+				<td>40123</td>
+				<td>39</td>
+			</tr>
+			<tr>
+				<td>cornellbox_brushed_metal.png</td>
+				<td>2</td>
+				<td>16792</td>
+				<td>37</td>
+			</tr>
+			<tr>
+				<td>deadmau5.png</td>
+				<td>24</td>
+				<td>118570</td>
+				<td>59</td>
+			</tr>
+			<tr>
+				<td>dragon_dynamic.png</td>
+				<td>3469</td>
+				<td>1400504</td>
+				<td>27</td>
+			</tr>
+			<tr>
+				<td>focusing_dragons.png</td>
+				<td>4260</td>
+				<td>25306</td>
+				<td>167</td>
+			</tr>
+			<tr>
+				<td>metal_glass_plates.png</td>
+				<td>11</td>
+				<td>13739</td>
+				<td>62</td>
+			</tr>
+			<tr>
+				<td>spheres_dof.png</td>
+				<td>0</td>
+				<td>1495</td>
+				<td>27</td>
+			</tr>
+			<tr>
+				<td>wine_glass.png</td>
+				<td>7</td>
+				<td>1699592</td>
+				<td>29</td>
+			</tr>
+		</table>
+		<h3 style="color: red;">
+			Self-Critique
+		</h3>
+		<p>
+		</p>
+	</div>
+	<br />
+	<br />
+</body>
