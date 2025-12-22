@@ -1,0 +1,9375 @@
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 9 ms
+cube_cushion.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 800
+Row 600
+Row 700
+cube_cushion.png done: 20 ms
+cube_cushion.png write png started
+cube_cushion.png write png done: 30 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 7 ms
+sphere_nearest_bilinear.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_nearest_bilinear.png done: 25 ms
+sphere_nearest_bilinear.png write png started
+sphere_nearest_bilinear.png write png done: 27 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 6 ms
+sphere_nearest_trilinear.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_nearest_trilinear.png done: 11 ms
+sphere_nearest_trilinear.png write png started
+sphere_nearest_trilinear.png write png done: 27 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+sphere_nobump_justbump.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_nobump_justbump.png done: 14 ms
+sphere_nobump_justbump.png write png started
+sphere_nobump_justbump.png write png done: 42 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+cube_waves.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+cube_waves.png done: 17 ms
+cube_waves.png write png started
+cube_waves.png write png done: 26 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 7 ms
+cube_wall_normal.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+cube_wall_normal.png done: 19 ms
+cube_wall_normal.png write png started
+cube_wall_normal.png write png done: 53 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+sphere_perlin_bump.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_perlin_bump.png done: 18 ms
+sphere_perlin_bump.png write png started
+sphere_perlin_bump.png write png done: 30 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 5 ms
+wood_box_all.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+wood_box_all.png done: 24 ms
+wood_box_all.png write png started
+wood_box_all.png write png done: 50 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+sphere_perlin.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_perlin.png done: 19 ms
+sphere_perlin.png write png started
+sphere_perlin.png write png done: 28 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+mytap_final.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+Row 900
+Row 1000
+mytap_final.png done: 167001 ms
+mytap_final.png write png started
+mytap_final.png write png done: 113 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 4 ms
+cube_wall.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+cube_wall.png done: 20 ms
+cube_wall.png write png started
+cube_wall.png write png done: 63 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 6 ms
+plane_bilinear.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+plane_bilinear.png done: 14 ms
+plane_bilinear.png write png started
+plane_bilinear.png write png done: 28 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 74110 (+74110 for meshes)
+Loaded PLY: 23938 vertices, 47872 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 8622 vertices, 2880 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 576 vertices, 372 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 960 vertices, 620 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 576 vertices, 372 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 64 vertices, 44 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 112 vertices, 104 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 39086 vertices, 78176 tris. Smooth Shading: ON, UVs: ON
+Mesh instance id: 1 added for base id: 1
+Mesh instance id: 2 added for base id: 1
+Mesh instance id: 3 added for base id: 17
+Mesh instance id: 4 added for base id: 17
+shapes parsed
+JSON parsing and grid preparation is done: 310 ms
+VeachAjar.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+VeachAjar.png done: 10532 ms
+VeachAjar.png write png started
+VeachAjar.png write png done: 36 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+sphere_nobump_bump.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_nobump_bump.png done: 20 ms
+sphere_nobump_bump.png write png started
+sphere_nobump_bump.png write png done: 48 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_341.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_341.png done: 772 ms
+tunnel_of_doom_341.png write png started
+tunnel_of_doom_341.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_184.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_184.png done: 771 ms
+tunnel_of_doom_184.png write png started
+tunnel_of_doom_184.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_350.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_350.png done: 766 ms
+tunnel_of_doom_350.png write png started
+tunnel_of_doom_350.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_278.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_278.png done: 769 ms
+tunnel_of_doom_278.png write png started
+tunnel_of_doom_278.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_182.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_182.png done: 790 ms
+tunnel_of_doom_182.png write png started
+tunnel_of_doom_182.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_157.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_157.png done: 769 ms
+tunnel_of_doom_157.png write png started
+tunnel_of_doom_157.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_318.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_318.png done: 769 ms
+tunnel_of_doom_318.png write png started
+tunnel_of_doom_318.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_032.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_032.png done: 769 ms
+tunnel_of_doom_032.png write png started
+tunnel_of_doom_032.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_052.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_052.png done: 766 ms
+tunnel_of_doom_052.png write png started
+tunnel_of_doom_052.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_198.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_198.png done: 762 ms
+tunnel_of_doom_198.png write png started
+tunnel_of_doom_198.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_063.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_063.png done: 761 ms
+tunnel_of_doom_063.png write png started
+tunnel_of_doom_063.png write png done: 127 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_351.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_351.png done: 763 ms
+tunnel_of_doom_351.png write png started
+tunnel_of_doom_351.png write png done: 129 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_171.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_171.png done: 789 ms
+tunnel_of_doom_171.png write png started
+tunnel_of_doom_171.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_289.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_289.png done: 761 ms
+tunnel_of_doom_289.png write png started
+tunnel_of_doom_289.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_234.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_234.png done: 765 ms
+tunnel_of_doom_234.png write png started
+tunnel_of_doom_234.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_120.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_120.png done: 763 ms
+tunnel_of_doom_120.png write png started
+tunnel_of_doom_120.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_094.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_094.png done: 768 ms
+tunnel_of_doom_094.png write png started
+tunnel_of_doom_094.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_356.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_356.png done: 760 ms
+tunnel_of_doom_356.png write png started
+tunnel_of_doom_356.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_336.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_336.png done: 762 ms
+tunnel_of_doom_336.png write png started
+tunnel_of_doom_336.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_249.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_249.png done: 769 ms
+tunnel_of_doom_249.png write png started
+tunnel_of_doom_249.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_279.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_279.png done: 787 ms
+tunnel_of_doom_279.png write png started
+tunnel_of_doom_279.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_247.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_247.png done: 765 ms
+tunnel_of_doom_247.png write png started
+tunnel_of_doom_247.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_319.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_319.png done: 764 ms
+tunnel_of_doom_319.png write png started
+tunnel_of_doom_319.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_037.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_037.png done: 773 ms
+tunnel_of_doom_037.png write png started
+tunnel_of_doom_037.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_105.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_105.png done: 770 ms
+tunnel_of_doom_105.png write png started
+tunnel_of_doom_105.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_222.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_222.png done: 766 ms
+tunnel_of_doom_222.png write png started
+tunnel_of_doom_222.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_212.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_212.png done: 792 ms
+tunnel_of_doom_212.png write png started
+tunnel_of_doom_212.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_053.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_053.png done: 766 ms
+tunnel_of_doom_053.png write png started
+tunnel_of_doom_053.png write png done: 127 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_159.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_159.png done: 765 ms
+tunnel_of_doom_159.png write png started
+tunnel_of_doom_159.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_028.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_028.png done: 768 ms
+tunnel_of_doom_028.png write png started
+tunnel_of_doom_028.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_056.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_056.png done: 762 ms
+tunnel_of_doom_056.png write png started
+tunnel_of_doom_056.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_271.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_271.png done: 758 ms
+tunnel_of_doom_271.png write png started
+tunnel_of_doom_271.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_191.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_191.png done: 769 ms
+tunnel_of_doom_191.png write png started
+tunnel_of_doom_191.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_304.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_304.png done: 770 ms
+tunnel_of_doom_304.png write png started
+tunnel_of_doom_304.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_196.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_196.png done: 765 ms
+tunnel_of_doom_196.png write png started
+tunnel_of_doom_196.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_213.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_213.png done: 786 ms
+tunnel_of_doom_213.png write png started
+tunnel_of_doom_213.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_021.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_021.png done: 762 ms
+tunnel_of_doom_021.png write png started
+tunnel_of_doom_021.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_126.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_126.png done: 764 ms
+tunnel_of_doom_126.png write png started
+tunnel_of_doom_126.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_283.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_283.png done: 766 ms
+tunnel_of_doom_283.png write png started
+tunnel_of_doom_283.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_334.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_334.png done: 769 ms
+tunnel_of_doom_334.png write png started
+tunnel_of_doom_334.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_031.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_031.png done: 768 ms
+tunnel_of_doom_031.png write png started
+tunnel_of_doom_031.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_142.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_142.png done: 766 ms
+tunnel_of_doom_142.png write png started
+tunnel_of_doom_142.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_276.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_276.png done: 761 ms
+tunnel_of_doom_276.png write png started
+tunnel_of_doom_276.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_160.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_160.png done: 763 ms
+tunnel_of_doom_160.png write png started
+tunnel_of_doom_160.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_238.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_238.png done: 797 ms
+tunnel_of_doom_238.png write png started
+tunnel_of_doom_238.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_241.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_241.png done: 766 ms
+tunnel_of_doom_241.png write png started
+tunnel_of_doom_241.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_195.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_195.png done: 773 ms
+tunnel_of_doom_195.png write png started
+tunnel_of_doom_195.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_130.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_130.png done: 763 ms
+tunnel_of_doom_130.png write png started
+tunnel_of_doom_130.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_132.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_132.png done: 762 ms
+tunnel_of_doom_132.png write png started
+tunnel_of_doom_132.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_116.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_116.png done: 766 ms
+tunnel_of_doom_116.png write png started
+tunnel_of_doom_116.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_137.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_137.png done: 765 ms
+tunnel_of_doom_137.png write png started
+tunnel_of_doom_137.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_262.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_262.png done: 771 ms
+tunnel_of_doom_262.png write png started
+tunnel_of_doom_262.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_205.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_205.png done: 767 ms
+tunnel_of_doom_205.png write png started
+tunnel_of_doom_205.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_275.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_275.png done: 795 ms
+tunnel_of_doom_275.png write png started
+tunnel_of_doom_275.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_013.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_013.png done: 766 ms
+tunnel_of_doom_013.png write png started
+tunnel_of_doom_013.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_042.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_042.png done: 766 ms
+tunnel_of_doom_042.png write png started
+tunnel_of_doom_042.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_083.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_083.png done: 764 ms
+tunnel_of_doom_083.png write png started
+tunnel_of_doom_083.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_147.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_147.png done: 761 ms
+tunnel_of_doom_147.png write png started
+tunnel_of_doom_147.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_272.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_272.png done: 760 ms
+tunnel_of_doom_272.png write png started
+tunnel_of_doom_272.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_065.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_065.png done: 793 ms
+tunnel_of_doom_065.png write png started
+tunnel_of_doom_065.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_176.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_176.png done: 762 ms
+tunnel_of_doom_176.png write png started
+tunnel_of_doom_176.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_244.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_244.png done: 774 ms
+tunnel_of_doom_244.png write png started
+tunnel_of_doom_244.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_231.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_231.png done: 764 ms
+tunnel_of_doom_231.png write png started
+tunnel_of_doom_231.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+tunnel_of_doom_161.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_161.png done: 763 ms
+tunnel_of_doom_161.png write png started
+tunnel_of_doom_161.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_347.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_347.png done: 764 ms
+tunnel_of_doom_347.png write png started
+tunnel_of_doom_347.png write png done: 114 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_218.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_218.png done: 769 ms
+tunnel_of_doom_218.png write png started
+tunnel_of_doom_218.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_027.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_027.png done: 762 ms
+tunnel_of_doom_027.png write png started
+tunnel_of_doom_027.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_012.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_012.png done: 765 ms
+tunnel_of_doom_012.png write png started
+tunnel_of_doom_012.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_004.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_004.png done: 789 ms
+tunnel_of_doom_004.png write png started
+tunnel_of_doom_004.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_112.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_112.png done: 765 ms
+tunnel_of_doom_112.png write png started
+tunnel_of_doom_112.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_068.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_068.png done: 765 ms
+tunnel_of_doom_068.png write png started
+tunnel_of_doom_068.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_014.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_014.png done: 760 ms
+tunnel_of_doom_014.png write png started
+tunnel_of_doom_014.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_253.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_253.png done: 765 ms
+tunnel_of_doom_253.png write png started
+tunnel_of_doom_253.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_290.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_290.png done: 758 ms
+tunnel_of_doom_290.png write png started
+tunnel_of_doom_290.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_330.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_330.png done: 764 ms
+tunnel_of_doom_330.png write png started
+tunnel_of_doom_330.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_002.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_002.png done: 775 ms
+tunnel_of_doom_002.png write png started
+tunnel_of_doom_002.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_332.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_332.png done: 759 ms
+tunnel_of_doom_332.png write png started
+tunnel_of_doom_332.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_316.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_316.png done: 759 ms
+tunnel_of_doom_316.png write png started
+tunnel_of_doom_316.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_129.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_129.png done: 768 ms
+tunnel_of_doom_129.png write png started
+tunnel_of_doom_129.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_036.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_036.png done: 786 ms
+tunnel_of_doom_036.png write png started
+tunnel_of_doom_036.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_151.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_151.png done: 760 ms
+tunnel_of_doom_151.png write png started
+tunnel_of_doom_151.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_080.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_080.png done: 767 ms
+tunnel_of_doom_080.png write png started
+tunnel_of_doom_080.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_305.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_305.png done: 763 ms
+tunnel_of_doom_305.png write png started
+tunnel_of_doom_305.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_163.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_163.png done: 760 ms
+tunnel_of_doom_163.png write png started
+tunnel_of_doom_163.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_087.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_087.png done: 762 ms
+tunnel_of_doom_087.png write png started
+tunnel_of_doom_087.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_261.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_261.png done: 766 ms
+tunnel_of_doom_261.png write png started
+tunnel_of_doom_261.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_046.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_046.png done: 767 ms
+tunnel_of_doom_046.png write png started
+tunnel_of_doom_046.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_204.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_204.png done: 761 ms
+tunnel_of_doom_204.png write png started
+tunnel_of_doom_204.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_124.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_124.png done: 795 ms
+tunnel_of_doom_124.png write png started
+tunnel_of_doom_124.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_189.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_189.png done: 767 ms
+tunnel_of_doom_189.png write png started
+tunnel_of_doom_189.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_306.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_306.png done: 765 ms
+tunnel_of_doom_306.png write png started
+tunnel_of_doom_306.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_122.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_122.png done: 762 ms
+tunnel_of_doom_122.png write png started
+tunnel_of_doom_122.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_280.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_280.png done: 766 ms
+tunnel_of_doom_280.png write png started
+tunnel_of_doom_280.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_295.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_295.png done: 774 ms
+tunnel_of_doom_295.png write png started
+tunnel_of_doom_295.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_258.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_258.png done: 767 ms
+tunnel_of_doom_258.png write png started
+tunnel_of_doom_258.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_153.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_153.png done: 772 ms
+tunnel_of_doom_153.png write png started
+tunnel_of_doom_153.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_175.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_175.png done: 781 ms
+tunnel_of_doom_175.png write png started
+tunnel_of_doom_175.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_145.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_145.png done: 790 ms
+tunnel_of_doom_145.png write png started
+tunnel_of_doom_145.png write png done: 129 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+tunnel_of_doom_343.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_343.png done: 761 ms
+tunnel_of_doom_343.png write png started
+tunnel_of_doom_343.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_058.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_058.png done: 765 ms
+tunnel_of_doom_058.png write png started
+tunnel_of_doom_058.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_313.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_313.png done: 769 ms
+tunnel_of_doom_313.png write png started
+tunnel_of_doom_313.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_267.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_267.png done: 764 ms
+tunnel_of_doom_267.png write png started
+tunnel_of_doom_267.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_181.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_181.png done: 763 ms
+tunnel_of_doom_181.png write png started
+tunnel_of_doom_181.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_243.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_243.png done: 767 ms
+tunnel_of_doom_243.png write png started
+tunnel_of_doom_243.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_324.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_324.png done: 763 ms
+tunnel_of_doom_324.png write png started
+tunnel_of_doom_324.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_265.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_265.png done: 761 ms
+tunnel_of_doom_265.png write png started
+tunnel_of_doom_265.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_200.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_200.png done: 793 ms
+tunnel_of_doom_200.png write png started
+tunnel_of_doom_200.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_325.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_325.png done: 764 ms
+tunnel_of_doom_325.png write png started
+tunnel_of_doom_325.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_315.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_315.png done: 761 ms
+tunnel_of_doom_315.png write png started
+tunnel_of_doom_315.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_057.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_057.png done: 766 ms
+tunnel_of_doom_057.png write png started
+tunnel_of_doom_057.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_270.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_270.png done: 764 ms
+tunnel_of_doom_270.png write png started
+tunnel_of_doom_270.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_188.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_188.png done: 763 ms
+tunnel_of_doom_188.png write png started
+tunnel_of_doom_188.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_168.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_168.png done: 761 ms
+tunnel_of_doom_168.png write png started
+tunnel_of_doom_168.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_180.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_180.png done: 763 ms
+tunnel_of_doom_180.png write png started
+tunnel_of_doom_180.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_320.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_320.png done: 762 ms
+tunnel_of_doom_320.png write png started
+tunnel_of_doom_320.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_260.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_260.png done: 785 ms
+tunnel_of_doom_260.png write png started
+tunnel_of_doom_260.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_077.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_077.png done: 769 ms
+tunnel_of_doom_077.png write png started
+tunnel_of_doom_077.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_209.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_209.png done: 765 ms
+tunnel_of_doom_209.png write png started
+tunnel_of_doom_209.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_038.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_038.png done: 764 ms
+tunnel_of_doom_038.png write png started
+tunnel_of_doom_038.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_071.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_071.png done: 764 ms
+tunnel_of_doom_071.png write png started
+tunnel_of_doom_071.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_061.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_061.png done: 762 ms
+tunnel_of_doom_061.png write png started
+tunnel_of_doom_061.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_296.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_296.png done: 761 ms
+tunnel_of_doom_296.png write png started
+tunnel_of_doom_296.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_327.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_327.png done: 761 ms
+tunnel_of_doom_327.png write png started
+tunnel_of_doom_327.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_067.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_067.png done: 768 ms
+tunnel_of_doom_067.png write png started
+tunnel_of_doom_067.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_043.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_043.png done: 790 ms
+tunnel_of_doom_043.png write png started
+tunnel_of_doom_043.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_085.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_085.png done: 766 ms
+tunnel_of_doom_085.png write png started
+tunnel_of_doom_085.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_097.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_097.png done: 770 ms
+tunnel_of_doom_097.png write png started
+tunnel_of_doom_097.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_165.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_165.png done: 761 ms
+tunnel_of_doom_165.png write png started
+tunnel_of_doom_165.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_127.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_127.png done: 767 ms
+tunnel_of_doom_127.png write png started
+tunnel_of_doom_127.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_338.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_338.png done: 764 ms
+tunnel_of_doom_338.png write png started
+tunnel_of_doom_338.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_133.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_133.png done: 769 ms
+tunnel_of_doom_133.png write png started
+tunnel_of_doom_133.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_089.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_089.png done: 764 ms
+tunnel_of_doom_089.png write png started
+tunnel_of_doom_089.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_251.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_251.png done: 763 ms
+tunnel_of_doom_251.png write png started
+tunnel_of_doom_251.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_108.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_108.png done: 790 ms
+tunnel_of_doom_108.png write png started
+tunnel_of_doom_108.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_121.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_121.png done: 766 ms
+tunnel_of_doom_121.png write png started
+tunnel_of_doom_121.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_081.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_081.png done: 765 ms
+tunnel_of_doom_081.png write png started
+tunnel_of_doom_081.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_178.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_178.png done: 761 ms
+tunnel_of_doom_178.png write png started
+tunnel_of_doom_178.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_310.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_310.png done: 767 ms
+tunnel_of_doom_310.png write png started
+tunnel_of_doom_310.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_264.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_264.png done: 789 ms
+tunnel_of_doom_264.png write png started
+tunnel_of_doom_264.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_055.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_055.png done: 768 ms
+tunnel_of_doom_055.png write png started
+tunnel_of_doom_055.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_281.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_281.png done: 765 ms
+tunnel_of_doom_281.png write png started
+tunnel_of_doom_281.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_226.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_226.png done: 764 ms
+tunnel_of_doom_226.png write png started
+tunnel_of_doom_226.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_128.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_128.png done: 766 ms
+tunnel_of_doom_128.png write png started
+tunnel_of_doom_128.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_086.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_086.png done: 762 ms
+tunnel_of_doom_086.png write png started
+tunnel_of_doom_086.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_329.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_329.png done: 762 ms
+tunnel_of_doom_329.png write png started
+tunnel_of_doom_329.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_256.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_256.png done: 767 ms
+tunnel_of_doom_256.png write png started
+tunnel_of_doom_256.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_285.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_285.png done: 764 ms
+tunnel_of_doom_285.png write png started
+tunnel_of_doom_285.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_287.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_287.png done: 765 ms
+tunnel_of_doom_287.png write png started
+tunnel_of_doom_287.png write png done: 132 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_095.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_095.png done: 768 ms
+tunnel_of_doom_095.png write png started
+tunnel_of_doom_095.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_135.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_135.png done: 763 ms
+tunnel_of_doom_135.png write png started
+tunnel_of_doom_135.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_158.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_158.png done: 764 ms
+tunnel_of_doom_158.png write png started
+tunnel_of_doom_158.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_230.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_230.png done: 765 ms
+tunnel_of_doom_230.png write png started
+tunnel_of_doom_230.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_072.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_072.png done: 767 ms
+tunnel_of_doom_072.png write png started
+tunnel_of_doom_072.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_317.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_317.png done: 761 ms
+tunnel_of_doom_317.png write png started
+tunnel_of_doom_317.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_322.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_322.png done: 763 ms
+tunnel_of_doom_322.png write png started
+tunnel_of_doom_322.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_174.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_174.png done: 769 ms
+tunnel_of_doom_174.png write png started
+tunnel_of_doom_174.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_033.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_033.png done: 764 ms
+tunnel_of_doom_033.png write png started
+tunnel_of_doom_033.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_211.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_211.png done: 785 ms
+tunnel_of_doom_211.png write png started
+tunnel_of_doom_211.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_035.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_035.png done: 764 ms
+tunnel_of_doom_035.png write png started
+tunnel_of_doom_035.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_084.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_084.png done: 762 ms
+tunnel_of_doom_084.png write png started
+tunnel_of_doom_084.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_192.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_192.png done: 760 ms
+tunnel_of_doom_192.png write png started
+tunnel_of_doom_192.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_321.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_321.png done: 769 ms
+tunnel_of_doom_321.png write png started
+tunnel_of_doom_321.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_221.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_221.png done: 771 ms
+tunnel_of_doom_221.png write png started
+tunnel_of_doom_221.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_062.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_062.png done: 762 ms
+tunnel_of_doom_062.png write png started
+tunnel_of_doom_062.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_335.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_335.png done: 764 ms
+tunnel_of_doom_335.png write png started
+tunnel_of_doom_335.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_245.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_245.png done: 765 ms
+tunnel_of_doom_245.png write png started
+tunnel_of_doom_245.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_044.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_044.png done: 791 ms
+tunnel_of_doom_044.png write png started
+tunnel_of_doom_044.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_291.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_291.png done: 758 ms
+tunnel_of_doom_291.png write png started
+tunnel_of_doom_291.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_051.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_051.png done: 764 ms
+tunnel_of_doom_051.png write png started
+tunnel_of_doom_051.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_073.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_073.png done: 765 ms
+tunnel_of_doom_073.png write png started
+tunnel_of_doom_073.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_169.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_169.png done: 762 ms
+tunnel_of_doom_169.png write png started
+tunnel_of_doom_169.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_355.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_355.png done: 763 ms
+tunnel_of_doom_355.png write png started
+tunnel_of_doom_355.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_235.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_235.png done: 766 ms
+tunnel_of_doom_235.png write png started
+tunnel_of_doom_235.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_201.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_201.png done: 767 ms
+tunnel_of_doom_201.png write png started
+tunnel_of_doom_201.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_172.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_172.png done: 761 ms
+tunnel_of_doom_172.png write png started
+tunnel_of_doom_172.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_149.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_149.png done: 792 ms
+tunnel_of_doom_149.png write png started
+tunnel_of_doom_149.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_308.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_308.png done: 767 ms
+tunnel_of_doom_308.png write png started
+tunnel_of_doom_308.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_240.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_240.png done: 763 ms
+tunnel_of_doom_240.png write png started
+tunnel_of_doom_240.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_358.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_358.png done: 767 ms
+tunnel_of_doom_358.png write png started
+tunnel_of_doom_358.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_102.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_102.png done: 766 ms
+tunnel_of_doom_102.png write png started
+tunnel_of_doom_102.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_167.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_167.png done: 762 ms
+tunnel_of_doom_167.png write png started
+tunnel_of_doom_167.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_170.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_170.png done: 769 ms
+tunnel_of_doom_170.png write png started
+tunnel_of_doom_170.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_019.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_019.png done: 764 ms
+tunnel_of_doom_019.png write png started
+tunnel_of_doom_019.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_111.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_111.png done: 763 ms
+tunnel_of_doom_111.png write png started
+tunnel_of_doom_111.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_109.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_109.png done: 763 ms
+tunnel_of_doom_109.png write png started
+tunnel_of_doom_109.png write png done: 138 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_357.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_357.png done: 768 ms
+tunnel_of_doom_357.png write png started
+tunnel_of_doom_357.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_303.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_303.png done: 767 ms
+tunnel_of_doom_303.png write png started
+tunnel_of_doom_303.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_106.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_106.png done: 765 ms
+tunnel_of_doom_106.png write png started
+tunnel_of_doom_106.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_140.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_140.png done: 761 ms
+tunnel_of_doom_140.png write png started
+tunnel_of_doom_140.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_219.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_219.png done: 769 ms
+tunnel_of_doom_219.png write png started
+tunnel_of_doom_219.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_099.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_099.png done: 765 ms
+tunnel_of_doom_099.png write png started
+tunnel_of_doom_099.png write png done: 127 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_040.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_040.png done: 765 ms
+tunnel_of_doom_040.png write png started
+tunnel_of_doom_040.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_045.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_045.png done: 768 ms
+tunnel_of_doom_045.png write png started
+tunnel_of_doom_045.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_353.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_353.png done: 760 ms
+tunnel_of_doom_353.png write png started
+tunnel_of_doom_353.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_048.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_048.png done: 788 ms
+tunnel_of_doom_048.png write png started
+tunnel_of_doom_048.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_017.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_017.png done: 768 ms
+tunnel_of_doom_017.png write png started
+tunnel_of_doom_017.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_228.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_228.png done: 768 ms
+tunnel_of_doom_228.png write png started
+tunnel_of_doom_228.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_054.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_054.png done: 765 ms
+tunnel_of_doom_054.png write png started
+tunnel_of_doom_054.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_255.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_255.png done: 764 ms
+tunnel_of_doom_255.png write png started
+tunnel_of_doom_255.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_225.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_225.png done: 764 ms
+tunnel_of_doom_225.png write png started
+tunnel_of_doom_225.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_302.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_302.png done: 768 ms
+tunnel_of_doom_302.png write png started
+tunnel_of_doom_302.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_018.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_018.png done: 769 ms
+tunnel_of_doom_018.png write png started
+tunnel_of_doom_018.png write png done: 127 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_208.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_208.png done: 764 ms
+tunnel_of_doom_208.png write png started
+tunnel_of_doom_208.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_069.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_069.png done: 791 ms
+tunnel_of_doom_069.png write png started
+tunnel_of_doom_069.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_041.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_041.png done: 758 ms
+tunnel_of_doom_041.png write png started
+tunnel_of_doom_041.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_237.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_237.png done: 762 ms
+tunnel_of_doom_237.png write png started
+tunnel_of_doom_237.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_139.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_139.png done: 766 ms
+tunnel_of_doom_139.png write png started
+tunnel_of_doom_139.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_104.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_104.png done: 764 ms
+tunnel_of_doom_104.png write png started
+tunnel_of_doom_104.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_010.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_010.png done: 763 ms
+tunnel_of_doom_010.png write png started
+tunnel_of_doom_010.png write png done: 127 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_005.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_005.png done: 759 ms
+tunnel_of_doom_005.png write png started
+tunnel_of_doom_005.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_101.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_101.png done: 766 ms
+tunnel_of_doom_101.png write png started
+tunnel_of_doom_101.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_352.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_352.png done: 759 ms
+tunnel_of_doom_352.png write png started
+tunnel_of_doom_352.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_220.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_220.png done: 766 ms
+tunnel_of_doom_220.png write png started
+tunnel_of_doom_220.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_059.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_059.png done: 787 ms
+tunnel_of_doom_059.png write png started
+tunnel_of_doom_059.png write png done: 128 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_359.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_359.png done: 764 ms
+tunnel_of_doom_359.png write png started
+tunnel_of_doom_359.png write png done: 114 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_248.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_248.png done: 760 ms
+tunnel_of_doom_248.png write png started
+tunnel_of_doom_248.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_215.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_215.png done: 766 ms
+tunnel_of_doom_215.png write png started
+tunnel_of_doom_215.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_092.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_092.png done: 763 ms
+tunnel_of_doom_092.png write png started
+tunnel_of_doom_092.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_022.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_022.png done: 764 ms
+tunnel_of_doom_022.png write png started
+tunnel_of_doom_022.png write png done: 127 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_049.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_049.png done: 759 ms
+tunnel_of_doom_049.png write png started
+tunnel_of_doom_049.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_312.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_312.png done: 765 ms
+tunnel_of_doom_312.png write png started
+tunnel_of_doom_312.png write png done: 114 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_050.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_050.png done: 767 ms
+tunnel_of_doom_050.png write png started
+tunnel_of_doom_050.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_246.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_246.png done: 791 ms
+tunnel_of_doom_246.png write png started
+tunnel_of_doom_246.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_344.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_344.png done: 766 ms
+tunnel_of_doom_344.png write png started
+tunnel_of_doom_344.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_152.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_152.png done: 767 ms
+tunnel_of_doom_152.png write png started
+tunnel_of_doom_152.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_223.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_223.png done: 761 ms
+tunnel_of_doom_223.png write png started
+tunnel_of_doom_223.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_257.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_257.png done: 765 ms
+tunnel_of_doom_257.png write png started
+tunnel_of_doom_257.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_197.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_197.png done: 780 ms
+tunnel_of_doom_197.png write png started
+tunnel_of_doom_197.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_337.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_337.png done: 766 ms
+tunnel_of_doom_337.png write png started
+tunnel_of_doom_337.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_339.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_339.png done: 834 ms
+tunnel_of_doom_339.png write png started
+tunnel_of_doom_339.png write png done: 144 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_185.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_185.png done: 875 ms
+tunnel_of_doom_185.png write png started
+tunnel_of_doom_185.png write png done: 136 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_346.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_346.png done: 857 ms
+tunnel_of_doom_346.png write png started
+tunnel_of_doom_346.png write png done: 141 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_207.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_207.png done: 820 ms
+tunnel_of_doom_207.png write png started
+tunnel_of_doom_207.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_340.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_340.png done: 818 ms
+tunnel_of_doom_340.png write png started
+tunnel_of_doom_340.png write png done: 133 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_326.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_326.png done: 835 ms
+tunnel_of_doom_326.png write png started
+tunnel_of_doom_326.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_047.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_047.png done: 765 ms
+tunnel_of_doom_047.png write png started
+tunnel_of_doom_047.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_297.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_297.png done: 759 ms
+tunnel_of_doom_297.png write png started
+tunnel_of_doom_297.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_039.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_039.png done: 766 ms
+tunnel_of_doom_039.png write png started
+tunnel_of_doom_039.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_134.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_134.png done: 760 ms
+tunnel_of_doom_134.png write png started
+tunnel_of_doom_134.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_232.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_232.png done: 759 ms
+tunnel_of_doom_232.png write png started
+tunnel_of_doom_232.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_125.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_125.png done: 769 ms
+tunnel_of_doom_125.png write png started
+tunnel_of_doom_125.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_020.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_020.png done: 793 ms
+tunnel_of_doom_020.png write png started
+tunnel_of_doom_020.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_206.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_206.png done: 765 ms
+tunnel_of_doom_206.png write png started
+tunnel_of_doom_206.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_117.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_117.png done: 764 ms
+tunnel_of_doom_117.png write png started
+tunnel_of_doom_117.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_229.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_229.png done: 762 ms
+tunnel_of_doom_229.png write png started
+tunnel_of_doom_229.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_348.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_348.png done: 766 ms
+tunnel_of_doom_348.png write png started
+tunnel_of_doom_348.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_060.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_060.png done: 765 ms
+tunnel_of_doom_060.png write png started
+tunnel_of_doom_060.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_299.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_299.png done: 764 ms
+tunnel_of_doom_299.png write png started
+tunnel_of_doom_299.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_345.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_345.png done: 768 ms
+tunnel_of_doom_345.png write png started
+tunnel_of_doom_345.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_144.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_144.png done: 767 ms
+tunnel_of_doom_144.png write png started
+tunnel_of_doom_144.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_242.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_242.png done: 789 ms
+tunnel_of_doom_242.png write png started
+tunnel_of_doom_242.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_342.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_342.png done: 777 ms
+tunnel_of_doom_342.png write png started
+tunnel_of_doom_342.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_190.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_190.png done: 772 ms
+tunnel_of_doom_190.png write png started
+tunnel_of_doom_190.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_115.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_115.png done: 768 ms
+tunnel_of_doom_115.png write png started
+tunnel_of_doom_115.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_284.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_284.png done: 759 ms
+tunnel_of_doom_284.png write png started
+tunnel_of_doom_284.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_269.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_269.png done: 767 ms
+tunnel_of_doom_269.png write png started
+tunnel_of_doom_269.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_082.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_082.png done: 764 ms
+tunnel_of_doom_082.png write png started
+tunnel_of_doom_082.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_214.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_214.png done: 768 ms
+tunnel_of_doom_214.png write png started
+tunnel_of_doom_214.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_148.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_148.png done: 768 ms
+tunnel_of_doom_148.png write png started
+tunnel_of_doom_148.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_091.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_091.png done: 793 ms
+tunnel_of_doom_091.png write png started
+tunnel_of_doom_091.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_141.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_141.png done: 768 ms
+tunnel_of_doom_141.png write png started
+tunnel_of_doom_141.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_349.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_349.png done: 760 ms
+tunnel_of_doom_349.png write png started
+tunnel_of_doom_349.png write png done: 115 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_186.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_186.png done: 771 ms
+tunnel_of_doom_186.png write png started
+tunnel_of_doom_186.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_100.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_100.png done: 786 ms
+tunnel_of_doom_100.png write png started
+tunnel_of_doom_100.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_217.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_217.png done: 764 ms
+tunnel_of_doom_217.png write png started
+tunnel_of_doom_217.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_098.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_098.png done: 761 ms
+tunnel_of_doom_098.png write png started
+tunnel_of_doom_098.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_066.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_066.png done: 770 ms
+tunnel_of_doom_066.png write png started
+tunnel_of_doom_066.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_233.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_233.png done: 760 ms
+tunnel_of_doom_233.png write png started
+tunnel_of_doom_233.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_154.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_154.png done: 793 ms
+tunnel_of_doom_154.png write png started
+tunnel_of_doom_154.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_292.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_292.png done: 762 ms
+tunnel_of_doom_292.png write png started
+tunnel_of_doom_292.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_268.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_268.png done: 768 ms
+tunnel_of_doom_268.png write png started
+tunnel_of_doom_268.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_113.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_113.png done: 763 ms
+tunnel_of_doom_113.png write png started
+tunnel_of_doom_113.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_288.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_288.png done: 763 ms
+tunnel_of_doom_288.png write png started
+tunnel_of_doom_288.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_250.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_250.png done: 762 ms
+tunnel_of_doom_250.png write png started
+tunnel_of_doom_250.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_156.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_156.png done: 774 ms
+tunnel_of_doom_156.png write png started
+tunnel_of_doom_156.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_227.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_227.png done: 765 ms
+tunnel_of_doom_227.png write png started
+tunnel_of_doom_227.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_016.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_016.png done: 765 ms
+tunnel_of_doom_016.png write png started
+tunnel_of_doom_016.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_079.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_079.png done: 785 ms
+tunnel_of_doom_079.png write png started
+tunnel_of_doom_079.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_187.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_187.png done: 767 ms
+tunnel_of_doom_187.png write png started
+tunnel_of_doom_187.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_210.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_210.png done: 765 ms
+tunnel_of_doom_210.png write png started
+tunnel_of_doom_210.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_107.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_107.png done: 767 ms
+tunnel_of_doom_107.png write png started
+tunnel_of_doom_107.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_088.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_088.png done: 763 ms
+tunnel_of_doom_088.png write png started
+tunnel_of_doom_088.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_110.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_110.png done: 767 ms
+tunnel_of_doom_110.png write png started
+tunnel_of_doom_110.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_026.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_026.png done: 764 ms
+tunnel_of_doom_026.png write png started
+tunnel_of_doom_026.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_286.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_286.png done: 763 ms
+tunnel_of_doom_286.png write png started
+tunnel_of_doom_286.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_162.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_162.png done: 767 ms
+tunnel_of_doom_162.png write png started
+tunnel_of_doom_162.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_309.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_309.png done: 764 ms
+tunnel_of_doom_309.png write png started
+tunnel_of_doom_309.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_064.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_064.png done: 791 ms
+tunnel_of_doom_064.png write png started
+tunnel_of_doom_064.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_143.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_143.png done: 762 ms
+tunnel_of_doom_143.png write png started
+tunnel_of_doom_143.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_136.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_136.png done: 763 ms
+tunnel_of_doom_136.png write png started
+tunnel_of_doom_136.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_030.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_030.png done: 771 ms
+tunnel_of_doom_030.png write png started
+tunnel_of_doom_030.png write png done: 140 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_076.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_076.png done: 864 ms
+tunnel_of_doom_076.png write png started
+tunnel_of_doom_076.png write png done: 138 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_252.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_252.png done: 868 ms
+tunnel_of_doom_252.png write png started
+tunnel_of_doom_252.png write png done: 134 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_166.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_166.png done: 842 ms
+tunnel_of_doom_166.png write png started
+tunnel_of_doom_166.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_008.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_008.png done: 806 ms
+tunnel_of_doom_008.png write png started
+tunnel_of_doom_008.png write png done: 145 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_096.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_096.png done: 835 ms
+tunnel_of_doom_096.png write png started
+tunnel_of_doom_096.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_118.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_118.png done: 798 ms
+tunnel_of_doom_118.png write png started
+tunnel_of_doom_118.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_300.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_300.png done: 764 ms
+tunnel_of_doom_300.png write png started
+tunnel_of_doom_300.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_293.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_293.png done: 766 ms
+tunnel_of_doom_293.png write png started
+tunnel_of_doom_293.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_103.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_103.png done: 760 ms
+tunnel_of_doom_103.png write png started
+tunnel_of_doom_103.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_074.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_074.png done: 766 ms
+tunnel_of_doom_074.png write png started
+tunnel_of_doom_074.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_093.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_093.png done: 775 ms
+tunnel_of_doom_093.png write png started
+tunnel_of_doom_093.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_075.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_075.png done: 769 ms
+tunnel_of_doom_075.png write png started
+tunnel_of_doom_075.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_183.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_183.png done: 760 ms
+tunnel_of_doom_183.png write png started
+tunnel_of_doom_183.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_024.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_024.png done: 768 ms
+tunnel_of_doom_024.png write png started
+tunnel_of_doom_024.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_119.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_119.png done: 766 ms
+tunnel_of_doom_119.png write png started
+tunnel_of_doom_119.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_301.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_301.png done: 788 ms
+tunnel_of_doom_301.png write png started
+tunnel_of_doom_301.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_006.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_006.png done: 766 ms
+tunnel_of_doom_006.png write png started
+tunnel_of_doom_006.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_009.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_009.png done: 770 ms
+tunnel_of_doom_009.png write png started
+tunnel_of_doom_009.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_307.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_307.png done: 766 ms
+tunnel_of_doom_307.png write png started
+tunnel_of_doom_307.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_123.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_123.png done: 763 ms
+tunnel_of_doom_123.png write png started
+tunnel_of_doom_123.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_131.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_131.png done: 763 ms
+tunnel_of_doom_131.png write png started
+tunnel_of_doom_131.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_138.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_138.png done: 764 ms
+tunnel_of_doom_138.png write png started
+tunnel_of_doom_138.png write png done: 127 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 1 ms
+tunnel_of_doom_034.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_034.png done: 765 ms
+tunnel_of_doom_034.png write png started
+tunnel_of_doom_034.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_354.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_354.png done: 758 ms
+tunnel_of_doom_354.png write png started
+tunnel_of_doom_354.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_003.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_003.png done: 793 ms
+tunnel_of_doom_003.png write png started
+tunnel_of_doom_003.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_078.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_078.png done: 766 ms
+tunnel_of_doom_078.png write png started
+tunnel_of_doom_078.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_179.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_179.png done: 767 ms
+tunnel_of_doom_179.png write png started
+tunnel_of_doom_179.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_202.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_202.png done: 776 ms
+tunnel_of_doom_202.png write png started
+tunnel_of_doom_202.png write png done: 138 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+tunnel_of_doom_070.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_070.png done: 775 ms
+tunnel_of_doom_070.png write png started
+tunnel_of_doom_070.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_015.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_015.png done: 768 ms
+tunnel_of_doom_015.png write png started
+tunnel_of_doom_015.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_277.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_277.png done: 767 ms
+tunnel_of_doom_277.png write png started
+tunnel_of_doom_277.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_263.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_263.png done: 768 ms
+tunnel_of_doom_263.png write png started
+tunnel_of_doom_263.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_029.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_029.png done: 766 ms
+tunnel_of_doom_029.png write png started
+tunnel_of_doom_029.png write png done: 128 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+tunnel_of_doom_164.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_164.png done: 785 ms
+tunnel_of_doom_164.png write png started
+tunnel_of_doom_164.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_007.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_007.png done: 784 ms
+tunnel_of_doom_007.png write png started
+tunnel_of_doom_007.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_193.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_193.png done: 768 ms
+tunnel_of_doom_193.png write png started
+tunnel_of_doom_193.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_090.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_090.png done: 763 ms
+tunnel_of_doom_090.png write png started
+tunnel_of_doom_090.png write png done: 124 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_224.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_224.png done: 788 ms
+tunnel_of_doom_224.png write png started
+tunnel_of_doom_224.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+tunnel_of_doom_001.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_001.png done: 770 ms
+tunnel_of_doom_001.png write png started
+tunnel_of_doom_001.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_177.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_177.png done: 764 ms
+tunnel_of_doom_177.png write png started
+tunnel_of_doom_177.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_314.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_314.png done: 755 ms
+tunnel_of_doom_314.png write png started
+tunnel_of_doom_314.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_331.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_331.png done: 763 ms
+tunnel_of_doom_331.png write png started
+tunnel_of_doom_331.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_274.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_274.png done: 763 ms
+tunnel_of_doom_274.png write png started
+tunnel_of_doom_274.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_203.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_203.png done: 763 ms
+tunnel_of_doom_203.png write png started
+tunnel_of_doom_203.png write png done: 123 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_199.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_199.png done: 765 ms
+tunnel_of_doom_199.png write png started
+tunnel_of_doom_199.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_155.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_155.png done: 761 ms
+tunnel_of_doom_155.png write png started
+tunnel_of_doom_155.png write png done: 121 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_114.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_114.png done: 763 ms
+tunnel_of_doom_114.png write png started
+tunnel_of_doom_114.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_194.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_194.png done: 791 ms
+tunnel_of_doom_194.png write png started
+tunnel_of_doom_194.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_236.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_236.png done: 763 ms
+tunnel_of_doom_236.png write png started
+tunnel_of_doom_236.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_333.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_333.png done: 771 ms
+tunnel_of_doom_333.png write png started
+tunnel_of_doom_333.png write png done: 116 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_000.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_000.png done: 769 ms
+tunnel_of_doom_000.png write png started
+tunnel_of_doom_000.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_294.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_294.png done: 765 ms
+tunnel_of_doom_294.png write png started
+tunnel_of_doom_294.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_239.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_239.png done: 770 ms
+tunnel_of_doom_239.png write png started
+tunnel_of_doom_239.png write png done: 120 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_259.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_259.png done: 760 ms
+tunnel_of_doom_259.png write png started
+tunnel_of_doom_259.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_328.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_328.png done: 760 ms
+tunnel_of_doom_328.png write png started
+tunnel_of_doom_328.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_298.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_298.png done: 769 ms
+tunnel_of_doom_298.png write png started
+tunnel_of_doom_298.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_273.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_273.png done: 765 ms
+tunnel_of_doom_273.png write png started
+tunnel_of_doom_273.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_011.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_011.png done: 794 ms
+tunnel_of_doom_011.png write png started
+tunnel_of_doom_011.png write png done: 125 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_282.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_282.png done: 762 ms
+tunnel_of_doom_282.png write png started
+tunnel_of_doom_282.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_173.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_173.png done: 772 ms
+tunnel_of_doom_173.png write png started
+tunnel_of_doom_173.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_311.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_311.png done: 762 ms
+tunnel_of_doom_311.png write png started
+tunnel_of_doom_311.png write png done: 118 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_025.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_025.png done: 771 ms
+tunnel_of_doom_025.png write png started
+tunnel_of_doom_025.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_216.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_216.png done: 766 ms
+tunnel_of_doom_216.png write png started
+tunnel_of_doom_216.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_150.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_150.png done: 761 ms
+tunnel_of_doom_150.png write png started
+tunnel_of_doom_150.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_323.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_323.png done: 764 ms
+tunnel_of_doom_323.png write png started
+tunnel_of_doom_323.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_146.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_146.png done: 763 ms
+tunnel_of_doom_146.png write png started
+tunnel_of_doom_146.png write png done: 122 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_254.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_254.png done: 771 ms
+tunnel_of_doom_254.png write png started
+tunnel_of_doom_254.png write png done: 119 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_023.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_023.png done: 793 ms
+tunnel_of_doom_023.png write png started
+tunnel_of_doom_023.png write png done: 126 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 2 ms
+tunnel_of_doom_266.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+tunnel_of_doom_266.png done: 762 ms
+tunnel_of_doom_266.png write png started
+tunnel_of_doom_266.png write png done: 117 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 7 ms
+plane_nearest.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+plane_nearest.png done: 14 ms
+plane_nearest.png write png started
+plane_nearest.png write png done: 20 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 12 ms
+brickwall_with_normalmap.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+brickwall_with_normalmap.png done: 27 ms
+brickwall_with_normalmap.png write png started
+brickwall_with_normalmap.png write png done: 71 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+cube_perlin_bump.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+cube_perlin_bump.png done: 22 ms
+cube_perlin_bump.png write png started
+cube_perlin_bump.png write png done: 37 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+sphere_perlin_scale.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_perlin_scale.png done: 25 ms
+sphere_perlin_scale.png write png started
+sphere_perlin_scale.png write png done: 40 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 16 ms
+galactica_static.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+galactica_static.png done: 101 ms
+galactica_static.png write png started
+galactica_static.png write png done: 163 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 211304 (+211303 for meshes)
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 211295 vertices, 413924 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 470 ms
+dragon_new.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+Row 900
+Row 1000
+Row 1100
+Row 1200
+Row 1300
+Row 1400
+dragon_new.png done: 709 ms
+dragon_new.png write png started
+dragon_new.png write png done: 194 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 37 ms
+bump_mapping_transformed.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+bump_mapping_transformed.png done: 71 ms
+bump_mapping_transformed.png write png started
+bump_mapping_transformed.png write png done: 100 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 17 ms
+galactica_dynamic.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+galactica_dynamic.png done: 15521 ms
+galactica_dynamic.png write png started
+galactica_dynamic.png write png done: 169 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 6 ms
+plane_trilinear.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+plane_trilinear.png done: 13 ms
+plane_trilinear.png write png started
+plane_trilinear.png write png done: 28 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 132 ms
+killeroo_bump_walls.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+killeroo_bump_walls.png done: 2262 ms
+killeroo_bump_walls.png write png started
+killeroo_bump_walls.png write png done: 107 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 0 ms
+cube_perlin.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+cube_perlin.png done: 20 ms
+cube_perlin.png write png started
+cube_perlin.png write png done: 38 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 29 ms
+sphere_normal.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+sphere_normal.png done: 2078 ms
+sphere_normal.png write png started
+sphere_normal.png write png done: 48 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 9 ms
+wood_box.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+wood_box.png done: 30 ms
+wood_box.png write png started
+wood_box.png write png done: 73 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 16 ms
+ellipsoids_texture.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+ellipsoids_texture.png done: 24 ms
+ellipsoids_texture.png write png started
+ellipsoids_texture.png write png done: 38 ms
+
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 5 ms
+wood_box_no_specular.png started
+Row 0
+Row 100
+Row 200
+Row 300
+Row 400
+Row 500
+Row 600
+Row 700
+Row 800
+wood_box_no_specular.png done: 22 ms
+wood_box_no_specular.png write png started
+wood_box_no_specular.png write png done: 63 ms
+
