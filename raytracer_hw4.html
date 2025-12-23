@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Şükrü Çiriş Blogs</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+
+	<ul>
+		<li><a href="index.html">Main Page</a></li>
+		<li><a href="raytracer.html">Ray Tracer</a></li>
+		<li class="sp">
+			<a href="https://sukruciris.com">Who is Şükrü Çiriş?</a>
+		</li>
+	</ul>
+
+	<br />
+	<br />
+
+	<div style="text-align: left; max-width: 70vw; margin: auto; font-weight: bold;">
+		<h3>
+			This blog has been written as a homework assignment for the Middle East Technical University
+			2025–2026 CENG 795 Special Topics: Advanced Ray Tracing course by Şükrü Çiriş.
+			It aims to present <a class="link" href="https://github.com/SUKRUCIRIS/raytracer">
+				my raytracer repository</a>, which contains the code developed for the
+			assignment.
+		</h3>
+		<h2 style="color: red;">
+			Homework 4
+		</h2>
+		<h3 style="color: red;"> Newly Added Features For Homework 4 </h3>
+		<ol style="list-style-type: disc; padding-left: 20px;">
+			<li>Image Textures: Support for PNG and JPEG files using nearest and bilinear interpolation.</li> <br />
+			<li>Perlin Noise: Procedural textures with multi-octave turbulence, noise scaling, and absolute/linear
+				conversion.</li> <br />
+			<li>Checkerboard Texture: Procedural 3D pattern with configurable scale, offset, and colors.</li> <br />
+			<li>Decal Modes: Support for diffuse (replace_kd, blend_kd), specular (replace_ks), and color override
+				(replace_all).</li> <br />
+			<li>Normal and Bump Mapping: Surface detail enhancement using tangent space normal maps and height-based
+				bump maps.</li> <br />
+			<li>Background Textures: Replacement of the global background color with texture mapping.</li> <br />
+			<li>Texture Coordinates: Implementation of UV coordinate data for triangles and meshes.</li>
+		</ol>
+		<h3 style="color: red;"> Image Textures </h3>
+		<p> I added image textures to make surfaces look more realistic. I use the
+			<b>stb_image</b> library to load <b>PNG</b> and <b>JPEG</b> files into my program. When a ray hits an
+			object, I find the 2D coordinate on the image and pick that color. To keep the images from looking pixelated
+			when you get close, I implemented <b>bilinear interpolation</b>. This method calculates the floor of the
+			coordinates and averages the four nearest pixels to create a smoother look, and I use a modulo operation to
+			make sure the texture wraps correctly around the object.
+		</p>
+
+		<h3 style="color: red;"> Perlin Noise </h3>
+		<p> I implemented Perlin noise using math instead of
+			image files. I calculate the noise value for every hit point based on its 3D position, modified by a
+			<b>NoiseScale</b> to control the frequency of the pattern. By adding multiple <b>octaves</b>—where each
+			layer has double the frequency but half the weight—I create a <b>turbulence</b> effect. I also added two
+			conversion modes: <b>absval</b> for snake-like patterns and <b>linear</b> for spot-like patterns.
+		</p>
+
+		<h3 style="color: red;"> Checkerboard Texture </h3>
+		<p> The checkerboard is a procedural texture that generates a grid pattern using a simple mathematical formula.
+			I use the <b>floor</b> function on the hit point's coordinates and check if the result is even or odd to
+			decide which color to show. This is very efficient because it doesn't need UV coordinates and can cover an
+			infinite area, which is why I used it for the floor in my <b>VeachAjar</b> scene. My code allows for custom
+			colors, scales, and offsets to move the pattern around in 3D space. </p>
+
+		<h3 style="color: red;"> Decal Modes </h3>
+		<p> I added different decal modes to my <b>calculate_color</b> function to control how a texture mixes with a
+			material. For example, <b>replace_kd</b> sets the texture as the new diffuse color, while <b>blend_kd</b>
+			takes the average of the material's base color and the texture color. I also implemented <b>replace_all</b>,
+			which just pastes the raw texture color on the object and ignores all lighting math, making the object look
+			exactly like the image regardless of shadows or highlights. </p>
+
+		<h3 style="color: red;"> Normal and Bump Mapping </h3>
+		<p> These techniques allow me to add small details like scratches or ridges to a smooth surface without changing
+			the actual geometry. In <b>normal mapping</b>, I sample colors from a texture that represent vectors in
+			tangent space and transform them to world space to change how light hits the surface. In <b>bump
+				mapping</b>, I calculate a virtual height change by looking at the intensity of nearby texels or the
+			gradient of Perlin noise. I use a <b>BumpFactor</b> to control how strong these bumps look in the final
+			render. </p>
+
+		<h3 style="color: red;"> Background Textures </h3>
+		<p> I implemented background textures so that rays that miss all objects don't just see a single flat color.
+			Inside my <b>trace_rec</b> function, if a ray doesn't hit anything, it samples the background texture based
+			on the pixel's UV coordinates. This allows the scene to look like it is surrounded by a large environment
+			image or a procedural sky, making the whole render look much more complete and professional. </p>
+
+		<h3 style="color: red;"> Texture Coordinates and UV Interpolation </h3>
+		<p> To map 2D images onto 3D shapes, I use texture coordinates, or <b>UVs</b>. I added <b>TexCoordData</b> to my
+			parser to store these values for every vertex in my meshes. For triangles, I use <b>barycentric
+				interpolation</b> to find the exact UV coordinate at the hit point by blending the values from the three
+			corners. For spheres, I calculate the UVs based on spherical angles, while planes use their tangent and
+			bitangent vectors to map the texture across their surface. </p>
+		<h3 style="color: red;">
+			Resulting Images and Videos
+		</h3>
+		<div class="slideshow-container" style="max-height: 50vw; margin: auto;">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 29</div>
+				<img src="./hw4_images/brickwall_with_normalmap.png">
+				<div class="text">brickwall_with_normalmap.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 29</div>
+				<img src="./hw4_images/bump_mapping_transformed.png">
+				<div class="text">bump_mapping_transformed.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 29</div>
+				<img src="./hw4_images/cube_cushion.png">
+				<div class="text">cube_cushion.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 29</div>
+				<img src="./hw4_images/cube_perlin_bump.png">
+				<div class="text">cube_perlin_bump.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 29</div>
+				<img src="./hw4_images/cube_perlin.png">
+				<div class="text">cube_perlin.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 29</div>
+				<img src="./hw4_images/cube_wall_normal.png">
+				<div class="text">cube_wall_normal.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 29</div>
+				<img src="./hw4_images/cube_wall.png">
+				<div class="text">cube_wall.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 29</div>
+				<img src="./hw4_images/cube_waves.png">
+				<div class="text">cube_waves.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 29</div>
+				<img src="./hw4_images/dragon_new.png">
+				<div class="text">dragon_new.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">10 / 29</div>
+				<img src="./hw4_images/ellipsoids_texture.png">
+				<div class="text">ellipsoids_texture.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">11 / 29</div>
+				<img src="./hw4_images/galactica_dynamic.png">
+				<div class="text">galactica_dynamic.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">12 / 29</div>
+				<img src="./hw4_images/galactica_static.png">
+				<div class="text">galactica_static.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">13 / 29</div>
+				<img src="./hw4_images/killeroo_bump_walls.png">
+				<div class="text">killeroo_bump_walls.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">14 / 29</div>
+				<img src="./hw4_images/mytap_final.png">
+				<div class="text">mytap_final.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">15 / 29</div>
+				<img src="./hw4_images/plane_bilinear.png">
+				<div class="text">plane_bilinear.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">16 / 29</div>
+				<img src="./hw4_images/plane_nearest.png">
+				<div class="text">plane_nearest.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">17 / 29</div>
+				<img src="./hw4_images/plane_trilinear.png">
+				<div class="text">plane_trilinear.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">18 / 29</div>
+				<img src="./hw4_images/sphere_nearest_bilinear.png">
+				<div class="text">sphere_nearest_bilinear.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">19 / 29</div>
+				<img src="./hw4_images/sphere_nearest_trilinear.png">
+				<div class="text">sphere_nearest_trilinear.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">20 / 29</div>
+				<img src="./hw4_images/sphere_nobump_bump.png">
+				<div class="text">sphere_nobump_bump.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">21 / 29</div>
+				<img src="./hw4_images/sphere_nobump_justbump.png">
+				<div class="text">sphere_nobump_justbump.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">22 / 29</div>
+				<img src="./hw4_images/sphere_normal.png">
+				<div class="text">sphere_normal.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">23 / 29</div>
+				<img src="./hw4_images/sphere_perlin_bump.png">
+				<div class="text">sphere_perlin_bump.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">24 / 29</div>
+				<img src="./hw4_images/sphere_perlin_scale.png">
+				<div class="text">sphere_perlin_scale.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">25 / 29</div>
+				<img src="./hw4_images/sphere_perlin.png">
+				<div class="text">sphere_perlin.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">26 / 29</div>
+				<img src="./hw4_images/VeachAjar.png">
+				<div class="text">VeachAjar.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">27 / 29</div>
+				<img src="./hw4_images/wood_box_all.png">
+				<div class="text">wood_box_all.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">28 / 29</div>
+				<img src="./hw4_images/wood_box_no_specular.png">
+				<div class="text">wood_box_no_specular.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">29 / 29</div>
+				<img src="./hw4_images/wood_box.png">
+				<div class="text">wood_box.png</div>
+			</div>
+
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br />
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+			<span class="dot" onclick="currentSlide(9)"></span>
+			<span class="dot" onclick="currentSlide(10)"></span>
+			<span class="dot" onclick="currentSlide(11)"></span>
+			<span class="dot" onclick="currentSlide(12)"></span>
+			<span class="dot" onclick="currentSlide(13)"></span>
+			<span class="dot" onclick="currentSlide(14)"></span>
+			<span class="dot" onclick="currentSlide(15)"></span>
+			<span class="dot" onclick="currentSlide(16)"></span>
+			<span class="dot" onclick="currentSlide(17)"></span>
+			<span class="dot" onclick="currentSlide(18)"></span>
+			<span class="dot" onclick="currentSlide(19)"></span>
+			<span class="dot" onclick="currentSlide(20)"></span>
+			<span class="dot" onclick="currentSlide(21)"></span>
+			<span class="dot" onclick="currentSlide(22)"></span>
+			<span class="dot" onclick="currentSlide(23)"></span>
+			<span class="dot" onclick="currentSlide(24)"></span>
+			<span class="dot" onclick="currentSlide(25)"></span>
+			<span class="dot" onclick="currentSlide(26)"></span>
+			<span class="dot" onclick="currentSlide(27)"></span>
+			<span class="dot" onclick="currentSlide(28)"></span>
+			<span class="dot" onclick="currentSlide(29)"></span>
+		</div>
+		<br />
+		<script src="./slider.js"></script>
+		<video style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;" controls>
+			<source src="./hw4_images/tunnel_of_doom.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<p style="text-align: center;">tunnel_of_doom</p>
+		<br />
+		<h3 style="color: red;">
+			Performance Results
+		</h3>
+		<p>
+			The performance results shown below were measured on a PC with an i5-13420H processor and 16 GB of
+			RAM. The program ran with 12 threads during the rendering phase, SIMD
+			optimization was active, and a BVH acceleration structure was used. Since my program does
+			not use the GPU, the GPU hardware is irrelevant. These results were obtained from a single run.
+		</p>
+		<table>
+			<tr>
+				<th>Scene</th>
+				<th>Json parse and prepare time (ms)</th>
+				<th>Render time (ms)</th>
+				<th>Save image time (ms)</th>
+			</tr>
+			<tr>
+				<td>brickwall_with_normalmap.png</td>
+				<td>12</td>
+				<td>27</td>
+				<td>71</td>
+			</tr>
+			<tr>
+				<td>bump_mapping_transformed.png</td>
+				<td>37</td>
+				<td>71</td>
+				<td>100</td>
+			</tr>
+			<tr>
+				<td>cube_cushion.png</td>
+				<td>9</td>
+				<td>20</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>cube_perlin_bump.png</td>
+				<td>0</td>
+				<td>22</td>
+				<td>37</td>
+			</tr>
+			<tr>
+				<td>cube_perlin.png</td>
+				<td>0</td>
+				<td>20</td>
+				<td>38</td>
+			</tr>
+			<tr>
+				<td>cube_wall_normal.png</td>
+				<td>7</td>
+				<td>19</td>
+				<td>53</td>
+			</tr>
+			<tr>
+				<td>cube_wall.png</td>
+				<td>4</td>
+				<td>20</td>
+				<td>63</td>
+			</tr>
+			<tr>
+				<td>cube_waves.png</td>
+				<td>3</td>
+				<td>17</td>
+				<td>26</td>
+			</tr>
+			<tr>
+				<td>dragon_new.png</td>
+				<td>470</td>
+				<td>709</td>
+				<td>194</td>
+			</tr>
+			<tr>
+				<td>ellipsoids_texture.png</td>
+				<td>16</td>
+				<td>24</td>
+				<td>38</td>
+			</tr>
+			<tr>
+				<td>galactica_dynamic.png</td>
+				<td>17</td>
+				<td>15521</td>
+				<td>169</td>
+			</tr>
+			<tr>
+				<td>galactica_static.png</td>
+				<td>16</td>
+				<td>101</td>
+				<td>163</td>
+			</tr>
+			<tr>
+				<td>killeroo_bump_walls.png</td>
+				<td>132</td>
+				<td>2262</td>
+				<td>107</td>
+			</tr>
+			<tr>
+				<td>mytap_final.png</td>
+				<td>47</td>
+				<td>167001</td>
+				<td>113</td>
+			</tr>
+			<tr>
+				<td>plane_bilinear.png</td>
+				<td>6</td>
+				<td>14</td>
+				<td>28</td>
+			</tr>
+			<tr>
+				<td>plane_nearest.png</td>
+				<td>7</td>
+				<td>14</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>plane_trilinear.png</td>
+				<td>6</td>
+				<td>13</td>
+				<td>28</td>
+			</tr>
+			<tr>
+				<td>sphere_nearest_bilinear.png</td>
+				<td>7</td>
+				<td>25</td>
+				<td>27</td>
+			</tr>
+			<tr>
+				<td>sphere_nearest_trilinear.png</td>
+				<td>6</td>
+				<td>11</td>
+				<td>27</td>
+			</tr>
+			<tr>
+				<td>sphere_nobump_bump.png</td>
+				<td>3</td>
+				<td>20</td>
+				<td>48</td>
+			</tr>
+			<tr>
+				<td>sphere_nobump_justbump.png</td>
+				<td>2</td>
+				<td>14</td>
+				<td>42</td>
+			</tr>
+			<tr>
+				<td>sphere_normal.png</td>
+				<td>29</td>
+				<td>2078</td>
+				<td>48</td>
+			</tr>
+			<tr>
+				<td>sphere_perlin_bump.png</td>
+				<td>0</td>
+				<td>18</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>sphere_perlin_scale.png</td>
+				<td>0</td>
+				<td>25</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>sphere_perlin.png</td>
+				<td>0</td>
+				<td>19</td>
+				<td>28</td>
+			</tr>
+			<tr>
+				<td>VeachAjar.png</td>
+				<td>310</td>
+				<td>10532</td>
+				<td>36</td>
+			</tr>
+			<tr>
+				<td>wood_box_all.png</td>
+				<td>5</td>
+				<td>24</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>wood_box_no_specular.png</td>
+				<td>5</td>
+				<td>22</td>
+				<td>63</td>
+			</tr>
+			<tr>
+				<td>wood_box.png</td>
+				<td>9</td>
+				<td>30</td>
+				<td>73</td>
+			</tr>
+		</table>
+		<h3 style="color: red;">
+			Self-Critique
+		</h3>
+		<p>
+			The VeachAjar scene render currently looks terrible, which I suspect is due to an issue with the PLY file
+			loading. I plan to investigate and fix this in the future. Additionally, I did not implement trilinear
+			interpolation as it was an optional feature.
+		</p>
+	</div>
+	<br />
+	<br />
+</body>
