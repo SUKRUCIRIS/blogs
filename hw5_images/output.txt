@@ -1,0 +1,1064 @@
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 3649 (+3648 for meshes)
+Loaded PLY: 3644 vertices, 6320 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 74 ms
+teapot_roughness.exr started
+teapot_roughness.exr rendering done: 1194789 ms
+teapot_roughness.exr write EXR started
+Saving tone mapped image: teapot_roughness_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 12 (+12 for meshes)
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 8 vertices, 12 tris. Smooth Shading: OFF, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 9 ms
+cube_directional.png started
+cube_directional.png rendering done: 37 ms
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 12 (+12 for meshes)
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 8 vertices, 12 tris. Smooth Shading: OFF, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 5 ms
+cube_point.png started
+cube_point.png rendering done: 36 ms
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 12 (+12 for meshes)
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 8 vertices, 12 tris. Smooth Shading: OFF, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 5 ms
+cube_point_hdr.exr started
+cube_point_hdr.exr rendering done: 36 ms
+cube_point_hdr.exr write EXR started
+Saving tone mapped image: cube_point_hdr_phot.png
+Saving tone mapped image: cube_point_hdr_aces.png
+Saving tone mapped image: cube_point_hdr_film.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 211304 (+211303 for meshes)
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 211295 vertices, 413924 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 517 ms
+dragon_new_with_spot.png started
+dragon_new_with_spot.png rendering done: 606 ms
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 1108 ms
+dragon_spot_light_msaa.png started
+dragon_spot_light_msaa.png rendering done: 4138 ms
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 8 ms
+empty_environment_latlong.exr started
+empty_environment_latlong.exr rendering done: 6 ms
+empty_environment_latlong.exr write EXR started
+Saving tone mapped image: empty_environment_latlong_phot.png
+Saving tone mapped image: empty_environment_latlong_film.png
+Saving tone mapped image: empty_environment_latlong_aces.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 7 ms
+empty_environment_light_probe.exr started
+empty_environment_light_probe.exr rendering done: 6 ms
+empty_environment_light_probe.exr write EXR started
+Saving tone mapped image: empty_environment_light_probe_phot.png
+Saving tone mapped image: empty_environment_light_probe_film.png
+Saving tone mapped image: empty_environment_light_probe_aces.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 38 ms
+glass_sphere_env.exr started
+glass_sphere_env.exr rendering done: 35 ms
+glass_sphere_env.exr write EXR started
+Saving tone mapped image: glass_sphere_env_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 9228 (+9223 for meshes)
+Loaded PLY: 9223 vertices, 17674 tris. Smooth Shading: ON, UVs: ON
+shapes parsed
+JSON parsing and grid preparation is done: 145 ms
+head_env_light.exr started
+head_env_light.exr rendering done: 3109 ms
+head_env_light.exr write EXR started
+Saving tone mapped image: head_env_light_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 37 ms
+mirror_sphere_env.exr started
+mirror_sphere_env.exr rendering done: 16 ms
+mirror_sphere_env.exr write EXR started
+Saving tone mapped image: mirror_sphere_env_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 8 ms
+sphere_env_light.exr started
+sphere_env_light.exr rendering done: 22808 ms
+sphere_env_light.exr write EXR started
+Saving tone mapped image: sphere_env_light_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 37 ms
+sphere_point_hdr_texture.exr started
+sphere_point_hdr_texture.exr rendering done: 19 ms
+sphere_point_hdr_texture.exr write EXR started
+Saving tone mapped image: sphere_point_hdr_texture_phot.png
+Saving tone mapped image: sphere_point_hdr_texture_film.png
+Saving tone mapped image: sphere_point_hdr_texture_aces.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 1114636 (+1114636 for meshes)
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 25152 vertices, 8384 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 66 vertices, 22 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 186 vertices, 62 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 336 vertices, 112 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 234 vertices, 78 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 186 vertices, 62 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 336 vertices, 112 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 234 vertices, 78 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 216 vertices, 72 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2436 vertices, 812 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 390 vertices, 130 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 588 vertices, 196 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 840 vertices, 280 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1899 vertices, 633 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 837 vertices, 279 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 783 vertices, 261 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 51 vertices, 17 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 45 vertices, 15 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 117 vertices, 39 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 216 vertices, 72 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2436 vertices, 812 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 390 vertices, 130 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 588 vertices, 196 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 840 vertices, 280 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1899 vertices, 633 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 837 vertices, 279 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 783 vertices, 261 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 51 vertices, 17 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 45 vertices, 15 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1095 vertices, 365 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 81 vertices, 27 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 21 vertices, 7 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 57 vertices, 19 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 99 vertices, 33 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 96 vertices, 32 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 204 vertices, 68 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 978 vertices, 326 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 81 vertices, 27 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 21 vertices, 7 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 57 vertices, 19 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 99 vertices, 33 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 96 vertices, 32 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 204 vertices, 68 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 183 vertices, 61 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 42 vertices, 14 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 303 vertices, 101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 42 vertices, 14 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 285 vertices, 95 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2700 vertices, 900 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2415 vertices, 805 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2496 vertices, 832 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 864 vertices, 288 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 216 vertices, 72 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2280 vertices, 760 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2928 vertices, 976 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 705 vertices, 235 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 627 vertices, 209 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1326 vertices, 442 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 705 vertices, 235 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 627 vertices, 209 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1356 vertices, 452 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 102 vertices, 34 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 102 vertices, 34 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 885 vertices, 295 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 252 vertices, 84 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2256 vertices, 752 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 276 vertices, 92 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 897 vertices, 299 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 252 vertices, 84 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2256 vertices, 752 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 276 vertices, 92 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 666 vertices, 222 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 330 vertices, 110 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 108 vertices, 36 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 594 vertices, 198 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 330 vertices, 110 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 108 vertices, 36 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 720 vertices, 240 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 60 vertices, 20 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 786 vertices, 262 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 60 vertices, 20 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 66 vertices, 22 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 240 vertices, 80 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 456 vertices, 152 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 306 vertices, 102 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 474 vertices, 158 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 8736 vertices, 2912 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1305 vertices, 435 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2250 vertices, 750 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1305 vertices, 435 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2250 vertices, 750 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 684 vertices, 228 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 684 vertices, 228 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 156 vertices, 52 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 414 vertices, 138 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 414 vertices, 138 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 21024 vertices, 7008 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1248 vertices, 416 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2784 vertices, 928 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 264 vertices, 88 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 672 vertices, 224 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1248 vertices, 416 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 2784 vertices, 928 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 264 vertices, 88 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1968 vertices, 656 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 1086 ms
+audi-tt-glacier.exr started
+audi-tt-glacier.exr rendering done: 82784 ms
+audi-tt-glacier.exr write EXR started
+Saving tone mapped image: audi-tt-glacier_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 1114636 (+1114636 for meshes)
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 25152 vertices, 8384 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 66 vertices, 22 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 186 vertices, 62 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 336 vertices, 112 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 234 vertices, 78 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 186 vertices, 62 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 336 vertices, 112 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 234 vertices, 78 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 216 vertices, 72 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2436 vertices, 812 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 390 vertices, 130 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 588 vertices, 196 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 840 vertices, 280 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1899 vertices, 633 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 837 vertices, 279 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 783 vertices, 261 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 51 vertices, 17 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 45 vertices, 15 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 117 vertices, 39 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 216 vertices, 72 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2436 vertices, 812 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 150 vertices, 50 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 390 vertices, 130 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 588 vertices, 196 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 840 vertices, 280 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1899 vertices, 633 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 837 vertices, 279 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 783 vertices, 261 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 51 vertices, 17 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 45 vertices, 15 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1095 vertices, 365 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 81 vertices, 27 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 21 vertices, 7 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 57 vertices, 19 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 99 vertices, 33 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 96 vertices, 32 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 204 vertices, 68 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 978 vertices, 326 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 81 vertices, 27 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 15 vertices, 5 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 153 vertices, 51 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 21 vertices, 7 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 57 vertices, 19 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 99 vertices, 33 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 96 vertices, 32 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 204 vertices, 68 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 183 vertices, 61 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 42 vertices, 14 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 303 vertices, 101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 360 vertices, 120 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 39 vertices, 13 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 42 vertices, 14 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 3 vertices, 1 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 285 vertices, 95 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2700 vertices, 900 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 33 vertices, 11 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2415 vertices, 805 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2496 vertices, 832 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 864 vertices, 288 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 216 vertices, 72 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 90 vertices, 30 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2280 vertices, 760 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2928 vertices, 976 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 705 vertices, 235 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 627 vertices, 209 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1326 vertices, 442 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 705 vertices, 235 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 627 vertices, 209 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1356 vertices, 452 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 102 vertices, 34 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 102 vertices, 34 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 72 vertices, 24 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 885 vertices, 295 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 252 vertices, 84 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2256 vertices, 752 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 276 vertices, 92 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 897 vertices, 299 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 48 vertices, 16 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 252 vertices, 84 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2256 vertices, 752 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 84 vertices, 28 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 276 vertices, 92 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 78 vertices, 26 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 666 vertices, 222 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 330 vertices, 110 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 108 vertices, 36 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 594 vertices, 198 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 330 vertices, 110 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 108 vertices, 36 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 120 vertices, 40 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 720 vertices, 240 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 60 vertices, 20 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 786 vertices, 262 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 60 vertices, 20 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 12 vertices, 4 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 24 vertices, 8 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 18 vertices, 6 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 66 vertices, 22 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 240 vertices, 80 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 456 vertices, 152 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 306 vertices, 102 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 474 vertices, 158 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 54 vertices, 18 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 30 vertices, 10 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 36 vertices, 12 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 8736 vertices, 2912 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1305 vertices, 435 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2250 vertices, 750 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1305 vertices, 435 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2250 vertices, 750 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 684 vertices, 228 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 684 vertices, 228 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 156 vertices, 52 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 414 vertices, 138 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 6 vertices, 2 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 414 vertices, 138 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 21024 vertices, 7008 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1248 vertices, 416 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 2784 vertices, 928 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 264 vertices, 88 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 672 vertices, 224 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1248 vertices, 416 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 2784 vertices, 928 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 264 vertices, 88 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 144 vertices, 48 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 408 vertices, 136 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1968 vertices, 656 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 55296 vertices, 18432 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 141303 vertices, 47101 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 24873 vertices, 8291 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 20736 vertices, 6912 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 1332 vertices, 444 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 1084 ms
+audi-tt-pisa.exr started
+audi-tt-pisa.exr rendering done: 84985 ms
+audi-tt-pisa.exr write EXR started
+Saving tone mapped image: audi-tt-pisa_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 74110 (+74110 for meshes)
+Loaded PLY: 23938 vertices, 47872 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 8622 vertices, 2880 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 576 vertices, 372 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 960 vertices, 620 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 576 vertices, 372 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 64 vertices, 44 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 112 vertices, 104 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 39086 vertices, 78176 tris. Smooth Shading: ON, UVs: ON
+Mesh instance id: 1 added for base id: 1
+Mesh instance id: 2 added for base id: 1
+Mesh instance id: 3 added for base id: 17
+Mesh instance id: 4 added for base id: 17
+shapes parsed
+JSON parsing and grid preparation is done: 427 ms
+VeachAjar.exr started
+VeachAjar.exr rendering done: 4908 ms
+VeachAjar.exr write EXR started
+Saving tone mapped image: VeachAjar_phot_key_0_18_s1_2_burn_1.png
+Saving tone mapped image: VeachAjar_phot_key_0_18_s1_0_burn_1.png
+Saving tone mapped image: VeachAjar_phot_key_0_18_s1_0_burn_0.png
+Saving tone mapped image: VeachAjar_phot_key_0_09_s1_0_burn_1.png
+Saving tone mapped image: VeachAjar_aces_key_0_18_s1_2_burn_0.png
+Saving tone mapped image: VeachAjar_aces_key_0_18_s1_2_burn_1.png
+Saving tone mapped image: VeachAjar_film_key_0_18_s1_2_burn_1.png
+Saving tone mapped image: VeachAjar_film_key_0_18_s1_2_burn_0.png
