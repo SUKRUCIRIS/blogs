@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Şükrü Çiriş Blogs</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+
+	<ul>
+		<li><a href="index.html">Main Page</a></li>
+		<li><a href="raytracer.html">Ray Tracer</a></li>
+		<li class="sp">
+			<a href="https://sukruciris.com">Who is Şükrü Çiriş?</a>
+		</li>
+	</ul>
+
+	<br />
+	<br />
+
+	<div style="text-align: left; max-width: 70vw; margin: auto; font-weight: bold;">
+		<h3>
+			This blog has been written as a homework assignment for the Middle East Technical University
+			2025-2026 CENG 795 Special Topics: Advanced Ray Tracing course by Şükrü Çiriş.
+			It aims to present <a class="link" href="https://github.com/SUKRUCIRIS/raytracer">
+				my raytracer repository</a>, which contains the code developed for the
+			assignment.
+		</h3>
+		<h2 style="color: red;">
+			Homework 5
+		</h2>
+		<h3 style="color: red;"> Newly Added Features For Homework 5 </h3>
+		<ol style="list-style-type: disc; padding-left: 20px;">
+			<li>HDR Rendering: Support for high dynamic range output using the OpenEXR format (tinyexr).</li> <br />
+			<li>Tone Mapping: Implementation of Photographic (Reinhard), ACES, and Filmic tone mapping operators with
+				configurable key value, burn-out, saturation, and gamma.</li> <br />
+			<li>Directional Lights: Infinite lights defined by direction and radiance.</li> <br />
+			<li>Spot Lights: Cone-based lighting with configurable coverage and falloff angles.</li> <br />
+			<li>Environment Lighting: Image-based lighting (IBL) using Latitude-Longitude maps and Light Probes with
+				importance sampling.</li>
+		</ol>
+
+		<h3 style="color: red;"> HDR Rendering and Tone Mapping </h3>
+		<p>
+			This assignment was a huge step forward because we finally moved away from the limitation of standard 0-255
+			color values. Up until now, my raytracer clamped pixel colors to a limited range, which meant losing a lot
+			of information in bright areas. For this homework, I upgraded the system to support High Dynamic Range (HDR)
+			rendering. This means the renderer now accumulates radiance values in floating-point buffers, capturing the
+			full range of light intensity calculated during the simulation. To actually save this data without losing
+			quality, I integrated the <b>tinyexr</b> library into my project, which allows me to export the results
+			directly as <b>.exr</b> files.
+		</p>
+		<p>
+			Of course, the problem with HDR images is that standard monitors can't display them directly. To bridge this
+			gap, I had to implement a complete tone mapping pipeline. The process starts by calculating the luminance of
+			each pixel using standard perception-based weights, which basically tells us how bright each pixel appears
+			to the human eye. After that, I calculate the log-average luminance of the entire scene to determine the
+			"key" of the image, which helps in scaling the brightness appropriately. For the actual dynamic range
+			compression, I implemented the global Photographic (Reinhard) operator. This one is really useful because it
+			uses a "burn-out" parameter to map high luminance areas to white, which helps preserve details in the really
+			bright parts of the image instead of just blowing them out. I didn't stop there, though; I also included
+			ACES and Filmic operators to give the images a more cinematic, high-contrast look that you often see in
+			movies and games. Once the compression is done, the code reconstructs the RGB values and optionally
+			saturates them to keep the colors looking vibrant. Finally, the image goes through gamma correction and
+			quantization so it can be saved as a standard PNG for display.
+		</p>
+
+		<h3 style="color: red;"> Advanced Lights </h3>
+		<p>
+			Lighting is what makes a raytraced scene look real, so I spent a good amount of time expanding the lighting
+			system to support three new types of light sources.
+		</p>
+
+		<h4>Directional Lights</h4>
+		<p>
+			First up are Directional Lights. I implemented these as the <code>DirectionalLight</code> class. You can
+			think of these essentially like the sun—they are light sources that are infinitely far away. Because of
+			this, they don't have a specific position in the scene, just a direction and a radiance value. Since they
+			are effectively at an infinite distance, I didn't apply any distance attenuation logic. This means the light
+			intensity remains constant no matter where an object is located in the scene, which simplifies things a bit
+			but is great for simulating outdoor sunlight.
+		</p>
+
+		<h4>Spot Lights</h4>
+		<p>
+			Next, I added Spot Lights via the <code>SpotLight</code> class. These are really fun to play with because
+			they emit illumination within a specific, defined cone, kind of like a flashlight or a stage light. Unlike
+			directional lights, the intensity here diminishes with distance according to the inverse square law, which
+			makes them behave more like physical light bulbs. To make them look realistic, I implemented a smooth
+			angular falloff. Instead of a hard edge where the light just cuts off, the intensity transitions smoothly
+			from full brightness within the falloff angle to zero outside the coverage angle. I achieved this using a
+			cosine-based interpolation, which ensures soft, natural-looking edges around the spotlight's area of
+			influence.
+		</p>
+
+		<h4>Environment Lights</h4>
+		<p>
+			The biggest addition to the lighting system was definitely the Environment Lights, implemented as
+			<code>SphericalDirectionalLight</code>. This feature allows me to illuminate the entire scene using high
+			dynamic range environment maps, which basically wraps the scene in a 360-degree image. I added support for
+			both Latitude-Longitude and Light Probe formats. One major issue with this kind of lighting is noise, so to
+			improve the rendering quality, I implemented importance sampling. Instead of just picking random directions
+			uniformly when sampling the light, my code uses a cosine-weighted distribution to prioritize directions
+			closer to the surface normal. This means we send more rays where they matter most. The sampled radiance is
+			then properly weighted to produce an unbiased lighting estimate. I also updated the ray tracing loop so that
+			background rays that miss all geometry sample this texture, providing a seamless backdrop that matches the
+			lighting.
+		</p>
+
+		<h3 style="color: red;">
+			Resulting Images
+		</h3>
+		<div class="slideshow-container" style="max-height: 50vw; margin: auto;">
+
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 31</div>
+				<img src="./hw5_images/audi-tt-glacier_phot.png">
+				<div class="text">audi-tt-glacier_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 31</div>
+				<img src="./hw5_images/audi-tt-pisa_phot.png">
+				<div class="text">audi-tt-pisa_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 31</div>
+				<img src="./hw5_images/cube_directional.png">
+				<div class="text">cube_directional.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 31</div>
+				<img src="./hw5_images/cube_point.png">
+				<div class="text">cube_point.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 31</div>
+				<img src="./hw5_images/cube_point_hdr_aces.png">
+				<div class="text">cube_point_hdr_aces.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 31</div>
+				<img src="./hw5_images/cube_point_hdr_film.png">
+				<div class="text">cube_point_hdr_film.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 31</div>
+				<img src="./hw5_images/cube_point_hdr_phot.png">
+				<div class="text">cube_point_hdr_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 31</div>
+				<img src="./hw5_images/dragon_new_with_spot.png">
+				<div class="text">dragon_new_with_spot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 31</div>
+				<img src="./hw5_images/dragon_spot_light_msaa.png">
+				<div class="text">dragon_spot_light_msaa.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">10 / 31</div>
+				<img src="./hw5_images/empty_environment_latlong_aces.png">
+				<div class="text">empty_environment_latlong_aces.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">11 / 31</div>
+				<img src="./hw5_images/empty_environment_latlong_film.png">
+				<div class="text">empty_environment_latlong_film.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">12 / 31</div>
+				<img src="./hw5_images/empty_environment_latlong_phot.png">
+				<div class="text">empty_environment_latlong_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">13 / 31</div>
+				<img src="./hw5_images/empty_environment_light_probe_aces.png">
+				<div class="text">empty_environment_light_probe_aces.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">14 / 31</div>
+				<img src="./hw5_images/empty_environment_light_probe_film.png">
+				<div class="text">empty_environment_light_probe_film.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">15 / 31</div>
+				<img src="./hw5_images/empty_environment_light_probe_phot.png">
+				<div class="text">empty_environment_light_probe_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">16 / 31</div>
+				<img src="./hw5_images/glass_sphere_env_phot.png">
+				<div class="text">glass_sphere_env_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">17 / 31</div>
+				<img src="./hw5_images/head_env_light_phot.png">
+				<div class="text">head_env_light_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">18 / 31</div>
+				<img src="./hw5_images/mirror_sphere_env_phot.png">
+				<div class="text">mirror_sphere_env_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">19 / 31</div>
+				<img src="./hw5_images/sphere_env_light_phot.png">
+				<div class="text">sphere_env_light_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">20 / 31</div>
+				<img src="./hw5_images/sphere_point_hdr_texture_aces.png">
+				<div class="text">sphere_point_hdr_texture_aces.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">21 / 31</div>
+				<img src="./hw5_images/sphere_point_hdr_texture_film.png">
+				<div class="text">sphere_point_hdr_texture_film.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">22 / 31</div>
+				<img src="./hw5_images/sphere_point_hdr_texture_phot.png">
+				<div class="text">sphere_point_hdr_texture_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">23 / 31</div>
+				<img src="./hw5_images/teapot_roughness_phot.png">
+				<div class="text">teapot_roughness_phot.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">24 / 31</div>
+				<img src="./hw5_images/VeachAjar_aces_key_0_18_s1_2_burn_0.png">
+				<div class="text">VeachAjar_aces_key_0_18_s1_2_burn_0.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">25 / 31</div>
+				<img src="./hw5_images/VeachAjar_aces_key_0_18_s1_2_burn_1.png">
+				<div class="text">VeachAjar_aces_key_0_18_s1_2_burn_1.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">26 / 31</div>
+				<img src="./hw5_images/VeachAjar_film_key_0_18_s1_2_burn_0.png">
+				<div class="text">VeachAjar_film_key_0_18_s1_2_burn_0.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">27 / 31</div>
+				<img src="./hw5_images/VeachAjar_film_key_0_18_s1_2_burn_1.png">
+				<div class="text">VeachAjar_film_key_0_18_s1_2_burn_1.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">28 / 31</div>
+				<img src="./hw5_images/VeachAjar_phot_key_0_09_s1_0_burn_1.png">
+				<div class="text">VeachAjar_phot_key_0_09_s1_0_burn_1.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">29 / 31</div>
+				<img src="./hw5_images/VeachAjar_phot_key_0_18_s1_0_burn_0.png">
+				<div class="text">VeachAjar_phot_key_0_18_s1_0_burn_0.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">30 / 31</div>
+				<img src="./hw5_images/VeachAjar_phot_key_0_18_s1_0_burn_1.png">
+				<div class="text">VeachAjar_phot_key_0_18_s1_0_burn_1.png</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">31 / 31</div>
+				<img src="./hw5_images/VeachAjar_phot_key_0_18_s1_2_burn_1.png">
+				<div class="text">VeachAjar_phot_key_0_18_s1_2_burn_1.png</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br />
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+			<span class="dot" onclick="currentSlide(9)"></span>
+			<span class="dot" onclick="currentSlide(10)"></span>
+			<span class="dot" onclick="currentSlide(11)"></span>
+			<span class="dot" onclick="currentSlide(12)"></span>
+			<span class="dot" onclick="currentSlide(13)"></span>
+			<span class="dot" onclick="currentSlide(14)"></span>
+			<span class="dot" onclick="currentSlide(15)"></span>
+			<span class="dot" onclick="currentSlide(16)"></span>
+			<span class="dot" onclick="currentSlide(17)"></span>
+			<span class="dot" onclick="currentSlide(18)"></span>
+			<span class="dot" onclick="currentSlide(19)"></span>
+			<span class="dot" onclick="currentSlide(20)"></span>
+			<span class="dot" onclick="currentSlide(21)"></span>
+			<span class="dot" onclick="currentSlide(22)"></span>
+			<span class="dot" onclick="currentSlide(23)"></span>
+			<span class="dot" onclick="currentSlide(24)"></span>
+			<span class="dot" onclick="currentSlide(25)"></span>
+			<span class="dot" onclick="currentSlide(26)"></span>
+			<span class="dot" onclick="currentSlide(27)"></span>
+			<span class="dot" onclick="currentSlide(28)"></span>
+			<span class="dot" onclick="currentSlide(29)"></span>
+			<span class="dot" onclick="currentSlide(30)"></span>
+			<span class="dot" onclick="currentSlide(31)"></span>
+		</div>
+		<br />
+		<script src="./slider.js"></script>
+		<br />
+		<h3 style="color: red;">
+			Performance Results
+		</h3>
+		<p>
+			The performance results shown below were measured on a PC with an i5-12400F processor and 16 GB of
+			RAM. The program ran with 12 threads during the rendering phase, SIMD
+			optimization was active, and a uniform grid acceleration structure was used. Since my program does
+			not use the GPU, the GPU hardware is irrelevant. These results were obtained from a single run.
+		</p>
+		<table>
+			<tr>
+				<th>Scene</th>
+				<th>Json parse and prepare time (ms)</th>
+				<th>Render time (ms)</th>
+			</tr>
+			<tr>
+				<td>teapot_roughness.exr</td>
+				<td>74</td>
+				<td>1194789</td>
+			</tr>
+			<tr>
+				<td>cube_directional.png</td>
+				<td>9</td>
+				<td>37</td>
+			</tr>
+			<tr>
+				<td>cube_point.png</td>
+				<td>5</td>
+				<td>36</td>
+			</tr>
+			<tr>
+				<td>cube_point_hdr.exr</td>
+				<td>5</td>
+				<td>36</td>
+			</tr>
+			<tr>
+				<td>dragon_new_with_spot.png</td>
+				<td>517</td>
+				<td>606</td>
+			</tr>
+			<tr>
+				<td>dragon_spot_light_msaa.png</td>
+				<td>1108</td>
+				<td>4138</td>
+			</tr>
+			<tr>
+				<td>empty_environment_latlong.exr</td>
+				<td>8</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>empty_environment_light_probe.exr</td>
+				<td>7</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>glass_sphere_env.exr</td>
+				<td>38</td>
+				<td>35</td>
+			</tr>
+			<tr>
+				<td>head_env_light.exr</td>
+				<td>145</td>
+				<td>3109</td>
+			</tr>
+			<tr>
+				<td>mirror_sphere_env.exr</td>
+				<td>37</td>
+				<td>16</td>
+			</tr>
+			<tr>
+				<td>sphere_env_light.exr</td>
+				<td>8</td>
+				<td>22808</td>
+			</tr>
+			<tr>
+				<td>sphere_point_hdr_texture.exr</td>
+				<td>37</td>
+				<td>19</td>
+			</tr>
+			<tr>
+				<td>audi-tt-glacier.exr</td>
+				<td>1086</td>
+				<td>82784</td>
+			</tr>
+			<tr>
+				<td>audi-tt-pisa.exr</td>
+				<td>1084</td>
+				<td>84985</td>
+			</tr>
+			<tr>
+				<td>VeachAjar.exr</td>
+				<td>427</td>
+				<td>4908</td>
+			</tr>
+		</table>
+		<h3 style="color: red;">
+			Self-Critique
+		</h3>
+		<p>
+			Overall, I'm pretty happy with the new features, especially the fact that EXR textures work and the tone
+			mapping pipeline is actually functional. It really makes the lighting look way better than the simple
+			clamping we did before. However, the upgrade definitely came at a cost—the render times for complex scenes
+			like the Audi TT are way higher now, which is something I might need to optimize. Also, being honest, the
+			tone mapping results don't look correct to me; some colors feel a bit off. There's also a
+			noticeable issue with how glass and mirror objects render in the scenes using SphericalDirectionalLight—they
+			don't look right. I'm planning to dig into these problems and fix them as soon as possible because
+			they really bug me!
+		</p>
+	</div>
+	<br />
+	<br />
+</body>
+
+</html>
