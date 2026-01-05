@@ -78,7 +78,7 @@
 		<h4>Directional Lights</h4>
 		<p>
 			First up are Directional Lights. I implemented these as the <code>DirectionalLight</code> class. You can
-			think of these essentially like the sun—they are light sources that are infinitely far away. Because of
+			think of these essentially like the sun, they are light sources that are infinitely far away. Because of
 			this, they don't have a specific position in the scene, just a direction and a radiance value. Since they
 			are effectively at an infinite distance, I didn't apply any distance attenuation logic. This means the light
 			intensity remains constant no matter where an object is located in the scene, which simplifies things a bit
@@ -445,11 +445,11 @@
 		<p>
 			Overall, I'm pretty happy with the new features, especially the fact that EXR textures work and the tone
 			mapping pipeline is actually functional. It really makes the lighting look way better than the simple
-			clamping we did before. However, the upgrade definitely came at a cost—the render times for complex scenes
+			clamping we did before. However, the upgrade definitely came at a cost, the render times for complex scenes
 			like the Audi TT are way higher now, which is something I might need to optimize. Also, being honest, the
 			tone mapping results don't look correct to me; some colors feel a bit off. There's also a
-			noticeable issue with how glass and mirror objects render in the scenes using SphericalDirectionalLight—they
-			don't look right. I'm planning to dig into these problems and fix them as soon as possible because
+			noticeable issue with how glass and mirror objects render in the scenes using SphericalDirectionalLight,
+			they don't look right. I'm planning to dig into these problems and fix them as soon as possible because
 			they really bug me!
 		</p>
 	</div>
