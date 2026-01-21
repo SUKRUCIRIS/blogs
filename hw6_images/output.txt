@@ -1,0 +1,317 @@
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 409 ms
+killeroo_blinnphong.exr started
+killeroo_blinnphong.exr rendering done: 13513 ms
+killeroo_blinnphong.exr write EXR started
+Saving tone mapped image: killeroo_blinnphong_phot.png
+killeroo_blinnphong_closeup.exr started
+killeroo_blinnphong_closeup.exr rendering done: 16244 ms
+killeroo_blinnphong_closeup.exr write EXR started
+Saving tone mapped image: killeroo_blinnphong_closeup_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 412 ms
+killeroo_torrancesparrow.exr started
+killeroo_torrancesparrow.exr rendering done: 13361 ms
+killeroo_torrancesparrow.exr write EXR started
+Saving tone mapped image: killeroo_torrancesparrow_phot.png
+killeroo_torrancesparrow_closeup.exr started
+killeroo_torrancesparrow_closeup.exr rendering done: 17594 ms
+killeroo_torrancesparrow_closeup.exr write EXR started
+Saving tone mapped image: killeroo_torrancesparrow_closeup_phot.png
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 10 ms
+cornellbox_jaroslav_diffuse.exr started
+cornellbox_jaroslav_diffuse.exr rendering done: 1531 ms
+cornellbox_jaroslav_diffuse.exr write EXR started
+Saving tone mapped image: cornellbox_jaroslav_diffuse_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 9 ms
+cornellbox_jaroslav_diffuse_area.exr started
+cornellbox_jaroslav_diffuse_area.exr rendering done: 34694 ms
+cornellbox_jaroslav_diffuse_area.exr write EXR started
+Saving tone mapped image: cornellbox_jaroslav_diffuse_area_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 9 ms
+cornellbox_jaroslav_glossy.exr started
+cornellbox_jaroslav_glossy.exr rendering done: 1765 ms
+cornellbox_jaroslav_glossy.exr write EXR started
+Saving tone mapped image: cornellbox_jaroslav_glossy_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+cornellbox_jaroslav_glossy_area.exr started
+cornellbox_jaroslav_glossy_area.exr rendering done: 38268 ms
+cornellbox_jaroslav_glossy_area.exr write EXR started
+Saving tone mapped image: cornellbox_jaroslav_glossy_area_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+cornellbox_jaroslav_glossy_area_ellipsoid.exr started
+cornellbox_jaroslav_glossy_area_ellipsoid.exr rendering done: 10564 ms
+cornellbox_jaroslav_glossy_area_ellipsoid.exr write EXR started
+Saving tone mapped image: cornellbox_jaroslav_glossy_area_ellipsoid_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 5 ms
+cornellbox_jaroslav_glossy_area_small.exr started
+cornellbox_jaroslav_glossy_area_small.exr rendering done: 159385 ms
+cornellbox_jaroslav_glossy_area_small.exr write EXR started
+Saving tone mapped image: cornellbox_jaroslav_glossy_area_small_phot.png
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 10 ms
+cornellbox_jaroslav_glossy_area_sphere.exr started
+cornellbox_jaroslav_glossy_area_sphere.exr rendering done: 11936 ms
+cornellbox_jaroslav_glossy_area_sphere.exr write EXR started
+Saving tone mapped image: cornellbox_jaroslav_glossy_area_sphere_phot.png
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 9 ms
+cornellbox_prism_light.exr started
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+cornellbox_sphere_light.exr started
+cornellbox_sphere_light.exr rendering done: 209955 ms
+cornellbox_sphere_light.exr write EXR started
+Saving tone mapped image: cornellbox_sphere_light_phot.png
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 10 ms
+diffuse_cornell_box_default.exr started
+diffuse_cornell_box_default.exr rendering done: 4662 ms
+diffuse_cornell_box_default.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_default_phot.png
+diffuse_cornell_box_importance.exr started
+diffuse_cornell_box_importance.exr rendering done: 4579 ms
+diffuse_cornell_box_importance.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_importance_phot.png
+diffuse_cornell_box_importance_nee_mis_balance.exr started
+diffuse_cornell_box_importance_nee_mis_balance.exr rendering done: 155451 ms
+diffuse_cornell_box_importance_nee_mis_balance.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_importance_nee_mis_balance_phot.png
+diffuse_cornell_box_importance_nee_mis_balance_clamping.exr started
+diffuse_cornell_box_importance_nee_mis_balance_clamping.exr rendering done: 168473 ms
+diffuse_cornell_box_importance_nee_mis_balance_clamping.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_importance_nee_mis_balance_clamping_phot.png
+diffuse_cornell_box_importance_nee_mis_balance_splitting.exr started
+diffuse_cornell_box_importance_nee_mis_balance_splitting.exr rendering done: 141149 ms
+diffuse_cornell_box_importance_nee_mis_balance_splitting.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_importance_nee_mis_balance_splitting_phot.png
+diffuse_cornell_box_importance_nee_mis_balance_splitting_clamp.exr started
+diffuse_cornell_box_importance_nee_mis_balance_splitting_clamp.exr rendering done: 137906 ms
+diffuse_cornell_box_importance_nee_mis_balance_splitting_clamp.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_importance_nee_mis_balance_splitting_clamp_phot.png
+diffuse_cornell_box_importance_nee_mis_balance_russian.exr started
+diffuse_cornell_box_importance_nee_mis_balance_russian.exr rendering done: 162494 ms
+diffuse_cornell_box_importance_nee_mis_balance_russian.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_importance_nee_mis_balance_russian_phot.png
+diffuse_cornell_box_importance_nee_mis_balance_russian_1600.exr started
+diffuse_cornell_box_importance_nee_mis_balance_russian_1600.exr rendering done: 2644205 ms
+diffuse_cornell_box_importance_nee_mis_balance_russian_1600.exr write EXR started
+Saving tone mapped image: diffuse_cornell_box_importance_nee_mis_balance_russian_1600_phot.png
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 10 ms
+cornell_box_default.exr started
+cornell_box_default.exr rendering done: 7851 ms
+cornell_box_default.exr write EXR started
+Saving tone mapped image: cornell_box_default_phot.png
+cornell_box_importance.exr started
+cornell_box_importance.exr rendering done: 8360 ms
+cornell_box_importance.exr write EXR started
+Saving tone mapped image: cornell_box_importance_phot.png
+cornell_box_importance_nee_mis_balance.exr started
+cornell_box_importance_nee_mis_balance.exr rendering done: 201230 ms
+cornell_box_importance_nee_mis_balance.exr write EXR started
+Saving tone mapped image: cornell_box_importance_nee_mis_balance_phot.png
+cornell_box_importance_nee_mis_balance_clamping.exr started
+cornell_box_importance_nee_mis_balance_clamping.exr rendering done: 206074 ms
+cornell_box_importance_nee_mis_balance_clamping.exr write EXR started
+Saving tone mapped image: cornell_box_importance_nee_mis_balance_clamping_phot.png
+cornell_box_importance_nee_mis_balance_splitting.exr started
+cornell_box_importance_nee_mis_balance_splitting.exr rendering done: 145299 ms
+cornell_box_importance_nee_mis_balance_splitting.exr write EXR started
+Saving tone mapped image: cornell_box_importance_nee_mis_balance_splitting_phot.png
+cornell_box_importance_nee_mis_balance_splitting_clamp.exr started
+cornell_box_importance_nee_mis_balance_splitting_clamp.exr rendering done: 143638 ms
+cornell_box_importance_nee_mis_balance_splitting_clamp.exr write EXR started
+Saving tone mapped image: cornell_box_importance_nee_mis_balance_splitting_clamp_phot.png
+cornell_box_importance_nee_mis_balance_russian.exr started
+cornell_box_importance_nee_mis_balance_russian.exr rendering done: 198411 ms
+cornell_box_importance_nee_mis_balance_russian.exr write EXR started
+Saving tone mapped image: cornell_box_importance_nee_mis_balance_russian_phot.png
+cornell_box_importance_nee_mis_balance_2500x2.exr started
+cornell_box_importance_nee_mis_balance_2500x2.exr rendering done: 8279978 ms
+cornell_box_importance_nee_mis_balance_2500x2.exr write EXR started
+Saving tone mapped image: cornell_box_importance_nee_mis_balance_2500x2_phot.png
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 3 ms
+cornellbox_prism_light.exr started
+cornellbox_prism_light.exr rendering done: 2638130 ms
+cornellbox_prism_light.exr write EXR started
+Saving tone mapped image: cornellbox_prism_light_phot.png
+
+>>> NEW RUN <<<
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 74110 (+74110 for meshes)
+Loaded PLY: 23938 vertices, 47872 tris. Smooth Shading: ON, UVs: ON
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 8622 vertices, 2880 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 576 vertices, 372 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 960 vertices, 620 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 576 vertices, 372 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 64 vertices, 44 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 24 vertices, 12 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 112 vertices, 104 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 39086 vertices, 78176 tris. Smooth Shading: ON, UVs: ON
+Mesh instance id: 1 added for base id: 1
+Mesh instance id: 2 added for base id: 1
+Mesh instance id: 3 added for base id: 17
+Mesh instance id: 4 added for base id: 17
+shapes parsed
+JSON parsing and grid preparation is done: 756 ms
+VeachAjar.exr started
+VeachAjar.exr rendering done: 6528709 ms
+VeachAjar.exr write EXR started
+Saving tone mapped image: VeachAjar_phot.png
