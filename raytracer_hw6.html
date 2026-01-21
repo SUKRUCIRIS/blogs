@@ -34,6 +34,158 @@
 			Homework 6
 		</h2>
 
+		<h3 style="color: red;"> Fixing the Tone Mapping Color Issue </h3>
+		<p>
+			In my previous homework, the tone mapped colors looked washed out because I was treating every sRGB material
+			colors as linear. Since some input colors are already gamma-encoded, using them directly in lighting
+			calculations leads to incorrect results. To fix this, I implemented a `_degamma` attribute in the
+			parser. When enabled, this flag linearizes the input colors by raising them to the power of gamma. This
+			ensures that all rendering calculations happen strictly in linear space, resulting in accurate and vibrant
+			colors after the final gamma correction step.
+		</p>
+
+		<img style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;"
+			src="./hw6_images/cube_point_hdr_aces.png">
+		<p style="text-align: center;">cube_point_hdr_aces.png</p>
+
+		<img style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;"
+			src="./hw6_images/cube_point_hdr_film.png">
+		<p style="text-align: center;">cube_point_hdr_film.png</p>
+
+		<img style="text-align: center; max-height: 50vw; max-width: 30vw; margin: auto; display: block;"
+			src="./hw6_images/cube_point_hdr_phot.png">
+		<p style="text-align: center;">cube_point_hdr_phot.png</p>
+
+		<h3 style="color: red;"> Newly Added Features For Homework 6 </h3>
+		<ol style="list-style-type: disc; padding-left: 20px;">
+			<li>Path Tracing: Full Monte Carlo integration support to simulate global illumination and color bleeding.
+			</li> <br />
+			<li>Advanced BRDFs: Implementation of Modified Phong, Modified Blinn-Phong, and Torrance-Sparrow microfacet
+				models with energy conservation.</li> <br />
+			<li>Object Lights: Support for arbitrary meshes (LightMesh) and spheres (LightSphere) acting as area light
+				sources.</li> <br />
+			<li>Importance Sampling: Cosine-weighted hemisphere sampling to reduce noise and improve convergence speed.
+			</li> <br />
+			<li>Next Event Estimation: Direct sampling of light sources (NEE) combined with BSDF sampling to efficiently
+				resolve lighting.</li> <br />
+			<li>Russian Roulette: Probabilistic ray termination to ensure unbiased rendering without infinite recursion.
+			</li> <br />
+			<li>Multiple Importance Sampling (MIS): Heuristic weighting (Balance Heuristic) to robustly combine
+				different sampling strategies.</li>
+		</ol>
+
+		<h3 style="color: red;"> Path Tracing Implementation </h3>
+		<p>
+			For this final assignment, the goal was to transition from the deterministic Whitted-style ray tracing I had
+			been using to a fully functional Path Tracer. In my previous implementations, I was only casting secondary
+			rays for perfect specular reflections or refractions. This meant that diffuse surfaces only received direct
+			light, making the scenes look somewhat artificial because they lacked global illumination. I tried to
+			implement the rendering equation using Monte Carlo integration to solve this.
+		</p>
+		<p>
+			In my `ray_tracer::path_trace` function, I structured the rendering loop to accumulate radiance
+			along a path. Instead of stopping at the first diffuse hit, the integrator now samples a new direction over
+			the hemisphere around the surface normal and continues the ray. This allows the renderer to capture color
+			bleeding and ambient lighting naturally. I implemented this recursively, where each bounce adds to the
+			accumulated color, weighted by the material's BRDF and the cosine term. One of the biggest challenges here
+			was handling the combinatorial explosion of rays. To manage this, I implemented a
+			`splittingFactor`
+			which allows splitting the path only at the first bounce for anti-aliasing or variance reduction, while
+			keeping the subsequent bounces linear.
+		</p>
+
+		<h3 style="color: red;"> BRDF Models </h3>
+		<p>
+			A major part of this homework was expanding the material system to support various Bidirectional Reflectance
+			Distribution Functions (BRDFs). Until now, I had relied on a simple Blinn-Phong model, but for this
+			assignment, I implemented a suite of physically plausible BRDFs including Modified Blinn-Phong, Modified
+			Phong, and the microfacet-based Torrance-Sparrow model.
+		</p>
+		<p>
+			For the <b>Modified Blinn-Phong</b> and <b>Modified Phong</b> models, the key difference was normalization.
+			In standard Phong shading, the energy isn't conserved. A surface could reflect more light than it receives
+			depending
+			on the exponent. I implemented the normalization factors (like `(n+2)/(2*pi)` for Phong) to
+			ensure
+			energy conservation.
+		</p>
+		<p>
+			The most complex model I implemented was <b>Torrance-Sparrow</b>. This is a microfacet model that treats the
+			surface as a collection of microscopic mirrors. I had to implement three distinct terms: the Fresnel term
+			(F),
+			which I calculated using the index of refraction; the Geometric attenuation factor (G), which accounts for
+			microfacets shadowing or masking each other; and the Normal Distribution Function (D), which describes the
+			orientation of these microfacets. I used the Blinn-Phong distribution for the D term. Implementing this
+			required careful handling of glancing angles where the denominator in the BRDF equation approaches zero.
+			Additionally, I added logic to handle the `kdfresnel` flag, which couples the diffuse component
+			to the Fresnel term, simulating how materials become less diffuse at grazing angles as they become more
+			specular.
+		</p>
+
+		<h3 style="color: red;"> Importance Sampling and Next Event Estimation </h3>
+		<p>
+			One of the biggest issues with naive path tracing is noise. If we just pick random directions on the
+			hemisphere
+			(Uniform Sampling), many rays will hit nothing or unimportant parts of the scene, leading to slow
+			convergence.
+			To address this, I implemented <b>Importance Sampling</b>. Instead of choosing directions uniformly, I tried
+			to sample directions proportional to the cosine of the angle with the normal. This prioritizes directions
+			that contribute most to the integral due to the Lambertian cosine law. In my code, I implemented this in
+			`sample_cosine_hemisphere`, which generates rays clustered around the surface normal.
+		</p>
+		<p>
+			However, even with cosine sampling, finding small light sources is difficult. To solve this, I implemented
+			<b>Next Event Estimation (NEE)</b>. The idea is to explicitly sample the light sources at every bounce.
+			In the `path_trace` function, I loop through the lights (including the new object lights)
+			and cast a shadow ray directly towards them. This contribution is then added to the indirect illumination
+			accumulated from the recursive path.
+		</p>
+		<p>
+			Combining NEE and BSDF sampling brings up the "double counting" problem. If I sample the light explicitly,
+			and my random bounce ray <i>also</i> hits the light, I would add that light's energy twice. To fix this in a
+			mathematically correct way, I implemented <b>Multiple Importance Sampling (MIS)</b> using the balance
+			heuristic. This weights the contributions based on their respective probability density functions (PDFs).
+			Essentially, if a light is found via a strategy that had a low probability of finding it, it gets a lower
+			weight, ensuring the final result is unbiased while significantly reducing variance.
+		</p>
+
+		<h3 style="color: red;"> Russian Roulette </h3>
+		<p>
+			In a path tracer, we ideally want to trace rays infinitely to capture all light bounces, but that is
+			computationally impossible. A fixed depth cutoff (like `max_depth = 5`) introduces bias because
+			it artificially removes energy from the scene, making it darker. To solve this, I implemented <b>Russian
+				Roulette</b> termination.
+		</p>
+		<p>
+			The concept is probabilistic path termination. Instead of a hard limit, at each bounce (after a certain
+			minimum depth), I calculate a survival probability for the ray. I based this probability on the reflectance
+			of the material. If a surface is dark, the ray has a lower chance of surviving. If the ray survives, its
+			energy is boosted (divided by the probability) to compensate for the rays that were killed. This ensures
+			that the expected value of the pixel remains correct (unbiased), exchanging the darkness bias for noise
+			(variance), which is generally preferred in rendering.
+		</p>
+
+		<h3 style="color: red;"> Object Lights (Triangle and Sphere Lights) </h3>
+		<p>
+			A cool feature of this assignment is that any object in the scene can now be a light source. Specifically,
+			I implemented support for <b>LightSphere</b> and <b>LightMesh</b>. This was a big change
+			from just having point lights because these lights have actual surface area and can be seen directly by the
+			camera.
+		</p>
+		<p>
+			I implemented these in my `SphereLight` and `TriangleLight` classes. The trickiest part was enabling Next
+			Event Estimation for them. Unlike a point light where you just connect to a single position, for these
+			object lights, I had to implement a way to sample a random point on their surface. For spheres, I used
+			uniform sampling to pick a point on the sphere's area. For meshes, I treated them as a collection of
+			triangle lights and sampled points on the triangles using barycentric coordinates.
+		</p>
+		<p>
+			I also had to modify the parser to handle the `Radiance` property for these objects. Now, when a ray hits
+			an object with an emission term, that radiance is added to the path's accumulated color. This allows for
+			really nice soft shadows and realistic lighting effects, like the glowing spheres seen in the Cornell Box
+			scenes.
+		</p>
+
 		<h3 style="color: red;">
 			Resulting Images
 		</h3>
@@ -425,6 +577,31 @@
 				<td>13361</td>
 			</tr>
 		</table>
+		<h3 style="color: red;">
+			Self-Critique
+		</h3>
+		<p>
+			The homework document mentioned that the VeachAjar scene was rendered with 22,500 samples per pixel, which
+			took
+			about 36 hours on a high-end CPU. Due to time constraints and the sheer computational cost, I had to limit
+			my render to only 2,500 samples. As a result, my output is significantly noisier than the reference, though
+			it still correctly demonstrates the light transport through the crack in the door.
+		</p>
+		<p>
+			I also noticed a bug in some of my object light renders where the light source itself (and even the entire
+			scene in one instance) appears black in the
+			final image. While they correctly emit light into the scene (illuminating other objects), the camera seems
+			to fail to register their emission when looking directly at them in certain configurations. This is likely
+			an issue with how I handle the intersection or material properties for emissive meshes in the primary ray
+			generation, or possibly a conflict with the Next Event Estimation logic masking the direct hit contribution.
+		</p>
+		<p>
+			Finally, the colors in the killeroo scenes do not perfectly match the provided reference
+			outputs. Even after fixing the gamma correction issue for other scenes, these specific models still look a
+			bit off, which suggests there might be a subtle bug in my BRDF implementation for those specific material
+			parameters or an issue with how I'm parsing that specific texture data. I plan to debug these issues and
+			refine the renderer further as soon as I have more time.
+		</p>
 	</div>
 	<br />
 	<br />
