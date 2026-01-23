@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Şükrü Çiriş Blogs</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+
+	<ul>
+		<li><a href="index.html">Main Page</a></li>
+		<li><a href="raytracer.html">Ray Tracer</a></li>
+		<li class="sp">
+			<a href="https://sukruciris.com">Who is Şükrü Çiriş?</a>
+		</li>
+	</ul>
+
+	<br />
+	<br />
+
+	<div style="text-align: left; max-width: 70vw; margin: auto; font-weight: bold;">
+		<h1>Multi-Threading Evaluation for Ray Tracing</h1>
+
+		<div class="container">
+			<p>
+				Welcome to my project blog. For this assignment I decided to push the limits of my custom C++ Ray Tracer
+				by exploring the world of high performance computing. Ray tracing is a rendering technique that
+				simulates the physical behavior of light to generate photorealistic images. It traces the path of light
+				as pixels in an image plane and simulates the effects of its encounters with virtual objects. This
+				process is incredibly computationally expensive because a single scene can require millions of rays to
+				be calculated. However the beauty of ray tracing lies in its independence. The calculation of one pixel
+				does not depend on the calculation of another which makes it an embarrassing parallel problem. This
+				characteristic makes it the perfect candidate for multi threading optimization.
+			</p>
+
+			<br>
+
+			<h2>Introduction to Parallelism</h2>
+			<p>
+				Before diving into the implementation details and the results of my experiments it is crucial to
+				understand the fundamental concepts of parallel computing that underpin this project. Specifically we
+				need to distinguish between Multi Processing and Multi Threading as they offer different approaches to
+				concurrency within an Operating System.
+			</p>
+
+			<img src="project_images/mt.png" alt="Scene Render"
+				style="display: block; margin: 30px auto; max-width: 95%; height: auto; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+
+			<h3>Threads versus Processes</h3>
+			<p>
+				In the context of an Operating System a <strong>Process</strong> is an instance of a computer program
+				that is being executed. It contains the program code and its current activity. Each process has its own
+				independent memory address space. This means that if you were to use Multi Processing to parallelize a
+				task you would be running multiple instances of the program. While this offers strong isolation it comes
+				with a significant drawback for an application like a ray tracer. Since processes do not share memory
+				they would each need their own copy of the scene data including all the geometry textures and
+				acceleration structures. For complex scenes this would lead to a massive waste of RAM and the
+				communication between these processes would require slow Inter Process Communication mechanisms like
+				pipes or sockets.
+			</p>
+			<p>
+				<strong>Multi Threading</strong> on the other hand occurs within a single process. A thread is the
+				smallest sequence of programmed instructions that can be managed independently by a scheduler. Threads
+				within the same process share the same data segment code segment and open files. This shared memory
+				model is what makes multi threading so powerful for rendering. All my threads can access the exact same
+				read only scene data without duplication. However each thread maintains its own
+				<strong>Registers</strong> and <strong>Stack</strong> memory which allows them to execute different
+				parts of the code simultaneously without interfering with each other. By utilizing the std thread
+				library in C++ I can spawn multiple workers that utilize the multiple cores of my CPU to render
+				different parts of the image at the same time effectively dividing the total render time by the number
+				of active threads.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<h2>Load Balancing and Cache Efficiency</h2>
+			<p>
+				Two of the most critical factors determining the performance of a parallel renderer are <strong>Load
+					Balancing</strong> and <strong>Cache Efficiency</strong>. While throwing more threads at a problem
+				usually helps, how those threads access memory and distribute work determines whether you get a 2x
+				speedup
+				or a 10x speedup.
+			</p>
+
+			<h3>The Load Balancing Problem</h3>
+			<p>
+				Load balancing refers to distributing work evenly across all available CPU cores so that no core sits
+				idle
+				while others are still working. In ray tracing, the time it takes to render a pixel varies wildly. A
+				pixel
+				hitting a diffuse wall is cheap to calculate, while a pixel hitting a glass sculpture requires recursive
+				refraction and reflection rays.
+			</p>
+			<p>
+				My <strong>Static Row Sharing</strong> strategy failed specifically because of this variance. In scenes
+				like
+				<em>Galactica</em>, the spaceship is in the center of the image. The threads assigned to the top and
+				bottom
+				rows rendered empty space and finished instantly, leaving the middle threads to do all the heavy lifting
+				alone. This creates a "convoy effect" where the entire render waits on the slowest thread.
+			</p>
+			<p>
+				By switching to <strong>Dynamic Scheduling</strong> (Row, Square, or Pixel), I ensured that as soon as a
+				thread finishes a task, it grabs the next available unit of work. This keeps my Intel Core i5-12400F's
+				12
+				logical threads saturated at 100% usage throughout the entire render, drastically reducing total render
+				time.
+			</p>
+
+			<h3>Cache Hits and Spatial Locality</h3>
+			<p>
+				The second major factor is memory access. My CPU has 18 MB of Smart Cache, which is incredibly fast
+				compared
+				to the main RAM. When a CPU core needs data (like a triangle's coordinates or a texture's color), it
+				first
+				checks the cache. A "Cache Hit" means the data is already there (fast), while a "Cache Miss" means it
+				has to
+				fetch it from slow RAM.
+			</p>
+			<p>
+				Ray tracing inherently has good <strong>spatial locality</strong>: rays fired through adjacent pixels
+				tend
+				to hit the same objects and access the same memory addresses.
+			</p>
+			<p>
+				This is why I implemented <strong>Dynamic Square Sharing</strong>. By assigning threads to process 32x32
+				pixel tiles, I ensure that a single core works on a localized area of the image. This maximizes the
+				chance
+				that the BVH nodes and triangle data loaded into the L1/L2 cache for the first pixel will still be
+				needed
+				for the next pixel. In contrast, <strong>Pixel Dynamic</strong> sharing spreads threads randomly across
+				the
+				image or creates contention, potentially flushing the cache more often and reducing performance despite
+				having perfect load balancing.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<h2>Hardware and Software Architecture</h2>
+			<p>
+				To evaluate the performance of different threading strategies I used my own custom built Ray Tracer.
+				Writing a renderer from scratch allowed me to have complete control over the memory management and the
+				execution pipeline. I optimized the core engine using several advanced techniques to ensure that the
+				baseline performance was already high before applying multi threading.
+			</p>
+			<p>
+				First I implemented a <strong>Bounding Volume Hierarchy</strong> or BVH. This is a tree based
+				acceleration structure that organizes the geometric objects in the scene. Without a BVH the renderer
+				would have to test every single ray against every single triangle in the scene which would make
+				rendering complex models like the dragon or the spaceship impossible in real time. The BVH allows the
+				ray to skip huge portions of empty space and only test intersection against objects that are likely to
+				be hit.
+			</p>
+			<p>
+				Secondly I utilized <strong>SIMD</strong> instructions which stands for Single Instruction Multiple
+				Data. I used the SSE4.1 instruction set to vectorize my linear algebra operations. This allows the CPU
+				to perform mathematical operations on 4 float values simultaneously in a single clock cycle. For example
+				when calculating a dot product or a cross product the CPU can process the x y and z components in
+				parallel rather than sequentially.
+			</p>
+
+			<h3>Test System Specifications</h3>
+			<p>
+				All performance benchmarks were conducted on my personal desktop equipped with an Intel Alder Lake
+				processor. Understanding the hardware architecture is vital for interpreting the results as the core
+				count directly influences the optimal number of threads.
+			</p>
+
+			<table>
+				<tr>
+					<th>Component</th>
+					<th>Details</th>
+				</tr>
+				<tr>
+					<td>Processor</td>
+					<td>12th Gen Intel Core i5 12400F</td>
+				</tr>
+				<tr>
+					<td>Architecture</td>
+					<td>Alder Lake S</td>
+				</tr>
+				<tr>
+					<td>Core Count</td>
+					<td>6 Performance Cores (0 Efficient Cores)</td>
+				</tr>
+				<tr>
+					<td>Thread Count</td>
+					<td>12 Logical Threads</td>
+				</tr>
+				<tr>
+					<td>Cache</td>
+					<td>18 MB Intel Smart Cache</td>
+				</tr>
+				<tr>
+					<td>Max Frequency</td>
+					<td>4.40 GHz</td>
+				</tr>
+			</table>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<h2>Multi Threading Strategies</h2>
+			<p>
+				The core of this research project was to implement and compare four distinct strategies for distributing
+				the rendering workload among the available threads. The goal was to find the method that provides the
+				best load balancing while minimizing the overhead of synchronization. The work unit in this context is
+				the pixel or a group of pixels that need to be colored.
+			</p>
+
+			<h3>1. Static Row Sharing</h3>
+			<p>
+				This is the most primitive approach to parallelization. I divide the height of the image by the total
+				number of threads to calculate a chunk size. Each thread is then assigned a fixed contiguous block of
+				rows to render. For example if I am rendering a 1080p image with 4 threads Thread 0 handles rows 0 to
+				269 Thread 1 handles 270 to 539 and so on.
+			</p>
+			<p>
+				While this method has zero synchronization overhead during the rendering loop it suffers from a major
+				flaw known as the <strong>Load Imbalance</strong> problem. Render scenes are rarely uniform. The top
+				half of an image might depict a simple blue sky which is very fast to compute while the bottom half
+				might contain a refractive glass object which requires deep recursion and many shadow rays. In this
+				scenario the threads assigned to the sky will finish almost instantly and sit idle wasting CPU cycles
+				while the threads assigned to the glass object struggle to finish. This results in poor overall
+				performance.
+			</p>
+
+			<h3>2. Dynamic Row Sharing</h3>
+			<p>
+				To address the shortcomings of the static approach I implemented Dynamic Row Sharing using an atomic
+				counter. Instead of pre assigning rows each thread enters a loop where it atomically increments a global
+				<code>next_scanline</code> variable to claim a row index. Once it finishes rendering that row it
+				requests another one.
+			</p>
+			<p>
+				This technique acts as a self balancing mechanism. Faster threads that finish simple rows quickly will
+				simply request more work automatically helping out the slower threads. This ensures that all cores
+				remain active until the entire image is complete drastically reducing idle time compared to the static
+				method.
+			</p>
+
+			<h3>3. Dynamic Square Sharing</h3>
+			<p>
+				Row based splitting is good but it doesn't account for <strong>spatial locality</strong>. Long
+				horizontal rows span across the entire image potentially accessing widely different parts of the scene
+				geometry and textures. This can lead to poor CPU cache performance. Dynamic Square Sharing divides the
+				image into small tiles for example 32 by 32 pixels.
+			</p>
+			<p>
+				Threads atomically claim the next available tile index. This method combines the load balancing benefits
+				of dynamic scheduling with improved cache coherency. Rays fired through a small square tile are highly
+				likely to hit the same objects and access adjacent texture memory which increases the probability of L1
+				and L2 cache hits significantly improving execution speed.
+			</p>
+
+			<h3>4. Dynamic Pixel Sharing</h3>
+			<p>
+				This is the most granular approach possible. Threads do not claim rows or tiles but instead atomically
+				increment a counter for every single pixel in the image. While this guarantees the most perfect
+				theoretical load balancing because no thread ever does more than one pixel more work than another it
+				introduces a massive synchronization overhead.
+			</p>
+			<p>
+				For a 1920 by 1080 image there are over 2 million pixels. This means the atomic variable is locked
+				incremented and unlocked 2 million times per frame. In scenes where pixel calculation is fast this
+				overhead can actually make the render slower than coarser methods. However in scenes where every pixel
+				takes a long time to compute the overhead becomes negligible relative to the trace time.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<h2>Performance Results Data</h2>
+			<p>The following table displays render times in milliseconds (ms). Lower is better.</p>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Method</th>
+						<th>4 Threads</th>
+						<th>8 Threads</th>
+						<th>12 Threads</th>
+						<th>16 Threads</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="scene-row">
+						<td colspan="5">Scene: Focusing Dragons (1920x1080, 100 samples)</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Row Dynamic</td>
+						<td>49340</td>
+						<td>26796</td>
+						<td>26085</td>
+						<td class="best">25785</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Row Static</td>
+						<td class="worst">74168</td>
+						<td>41184</td>
+						<td>33852</td>
+						<td>29998</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Square Dynamic</td>
+						<td>47284</td>
+						<td>30050</td>
+						<td>26080</td>
+						<td>26534</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Pixel Dynamic</td>
+						<td>47129</td>
+						<td>29461</td>
+						<td>25808</td>
+						<td>26069</td>
+					</tr>
+
+					<tr class="scene-row">
+						<td colspan="5">Scene: MyTap Final (1920x1080, 256 samples)</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Row Dynamic</td>
+						<td>263300</td>
+						<td>175687</td>
+						<td>151709</td>
+						<td>155771</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Row Static</td>
+						<td class="worst">294933</td>
+						<td>189056</td>
+						<td>164834</td>
+						<td>162409</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Square Dynamic</td>
+						<td>261159</td>
+						<td>173653</td>
+						<td>152879</td>
+						<td>156988</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Pixel Dynamic</td>
+						<td>264211</td>
+						<td>176726</td>
+						<td class="best">151030</td>
+						<td>153712</td>
+					</tr>
+
+					<tr class="scene-row">
+						<td colspan="5">Scene: Galactica (1280x720, 100 samples)</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Row Dynamic</td>
+						<td>24387</td>
+						<td>14998</td>
+						<td>12930</td>
+						<td>13037</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Row Static</td>
+						<td class="worst">56227</td>
+						<td>35708</td>
+						<td>24436</td>
+						<td>21275</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Square Dynamic</td>
+						<td>23333</td>
+						<td>13976</td>
+						<td class="best">12232</td>
+						<td>12652</td>
+					</tr>
+					<tr>
+						<td style="text-align:left; font-weight:bold;">Pixel Dynamic</td>
+						<td>23762</td>
+						<td>14592</td>
+						<td>12494</td>
+						<td>12569</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<br>
+
+		<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin: 30px auto;">
+
+			<div style="text-align: center; max-width: 30%; min-width: 300px;">
+				<img src="project_images/focusing_dragons.png" alt="Focusing Dragons"
+					style="display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.4); object-fit: cover;">
+				<p style="margin-top: 10px; font-weight: bold; color: #4a4a4a;">Focusing Dragons</p>
+			</div>
+
+			<div style="text-align: center; max-width: 30%; min-width: 300px;">
+				<img src="project_images/galactica_dynamic.png" alt="Galactica Dynamic"
+					style="display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.4); object-fit: cover;">
+				<p style="margin-top: 10px; font-weight: bold; color: #4a4a4a;">Galactica Dynamic</p>
+			</div>
+
+			<div style="text-align: center; max-width: 30%; min-width: 300px;">
+				<img src="project_images/mytap_final.png" alt="MyTap Final"
+					style="display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.4); object-fit: cover;">
+				<p style="margin-top: 10px; font-weight: bold; color: #4a4a4a;">MyTap Final</p>
+			</div>
+
+		</div>
+
+		<br>
+		<br>
+
+		<div class="container">
+			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+			<div style="background-color: rgba(100,100,100,0.1);">
+				<h3 style="text-align: center;">Scene 1: Focusing Dragons</h3>
+				<canvas id="chartDragons"></canvas>
+			</div>
+
+			<div style="background-color: rgba(100,100,100,0.1);">
+				<h3 style="text-align: center;">Scene 2: MyTap Final (High Complexity)</h3>
+				<canvas id="chartMyTap"></canvas>
+			</div>
+
+			<div style="background-color: rgba(100,100,100,0.1);">
+				<h3 style="text-align: center;">Scene 3: Galactica (High Variance)</h3>
+				<canvas id="chartGalactica"></canvas>
+			</div>
+
+			<script>
+				// Common settings for all charts
+				const commonOptions = {
+					responsive: true,
+					plugins: {
+						legend: { position: 'bottom' },
+						tooltip: { mode: 'index', intersect: false }
+					},
+					scales: {
+						y: {
+							title: { display: true, text: 'Render Time (ms)' },
+							beginAtZero: true
+						},
+						x: {
+							title: { display: true, text: 'Thread Count' }
+						}
+					}
+				};
+
+				const threadLabels = ['4 Threads', '8 Threads', '12 Threads', '16 Threads'];
+
+				// Colors matching your theme (Earthy/Red tones)
+				const colors = {
+					static: 'rgba(192, 57, 43, 1)',      // Dark Red
+					row: 'rgba(230, 126, 34, 1)',         // Orange
+					square: 'rgba(39, 174, 96, 1)',       // Green
+					pixel: 'rgba(41, 128, 185, 1)'        // Blue
+				};
+
+				new Chart(document.getElementById('chartDragons'), {
+					type: 'line',
+					data: {
+						labels: threadLabels,
+						datasets: [
+							{ label: 'Row Static', data: [74168, 41184, 33852, 29998], borderColor: colors.static, backgroundColor: colors.static, tension: 0.3 },
+							{ label: 'Row Dynamic', data: [49340, 26796, 26085, 25785], borderColor: colors.row, backgroundColor: colors.row, tension: 0.3 },
+							{ label: 'Square Dynamic', data: [47284, 30050, 26080, 26534], borderColor: colors.square, backgroundColor: colors.square, tension: 0.3 },
+							{ label: 'Pixel Dynamic', data: [47129, 29461, 25808, 26069], borderColor: colors.pixel, backgroundColor: colors.pixel, tension: 0.3 }
+						]
+					},
+					options: commonOptions
+				});
+
+				new Chart(document.getElementById('chartMyTap'), {
+					type: 'line',
+					data: {
+						labels: threadLabels,
+						datasets: [
+							{ label: 'Row Static', data: [294933, 189056, 164834, 162409], borderColor: colors.static, backgroundColor: colors.static, tension: 0.3 },
+							{ label: 'Row Dynamic', data: [263300, 175687, 151709, 155771], borderColor: colors.row, backgroundColor: colors.row, tension: 0.3 },
+							{ label: 'Square Dynamic', data: [261159, 173653, 152879, 156988], borderColor: colors.square, backgroundColor: colors.square, tension: 0.3 },
+							{ label: 'Pixel Dynamic', data: [264211, 176726, 151030, 153712], borderColor: colors.pixel, backgroundColor: colors.pixel, tension: 0.3 }
+						]
+					},
+					options: commonOptions
+				});
+
+				// --- Scene 3: Galactica ---
+				new Chart(document.getElementById('chartGalactica'), {
+					type: 'line',
+					data: {
+						labels: threadLabels,
+						datasets: [
+							{ label: 'Row Static', data: [56227, 35708, 24436, 21275], borderColor: colors.static, backgroundColor: colors.static, tension: 0.3 },
+							{ label: 'Row Dynamic', data: [24387, 14998, 12930, 13037], borderColor: colors.row, backgroundColor: colors.row, tension: 0.3 },
+							{ label: 'Square Dynamic', data: [23333, 13976, 12232, 12652], borderColor: colors.square, backgroundColor: colors.square, tension: 0.3 },
+							{ label: 'Pixel Dynamic', data: [23762, 14592, 12494, 12569], borderColor: colors.pixel, backgroundColor: colors.pixel, tension: 0.3 }
+						]
+					},
+					options: commonOptions
+				});
+			</script>
+			<h2>Performance Analysis and Code Correlation</h2>
+			<p>
+				The results from my benchmarks provide a clear picture of how different threading strategies interact
+				with the underlying hardware and the specific nature of ray tracing workloads. By correlating the timing
+				data with the implementation details, several key patterns emerge regarding load balancing,
+				synchronization overhead, and memory access patterns.
+			</p>
+
+			<h3>1. The "Convoy Effect" in Static Scheduling</h3>
+			<p>
+				The most dramatic data point in my results is the performance gap in the <strong>Galactica</strong>
+				scene with 4 threads. <strong>Row Static</strong> took <strong>56,227 ms</strong>, while <strong>Row
+					Dynamic</strong> took only <strong>24,387 ms</strong>. This represents a <strong>2.3x
+					speedup</strong> purely by changing the scheduling algorithm.
+			</p>
+			<p>
+				In <code>src/main.cpp</code>, the static strategy calculates
+				<code>rows_per_thread = camera.resy / thread_count</code> and assigns a rigid range
+				<code>[start_y, end_y)</code> to each thread. The Galactica scene features a central spaceship
+				surrounded by empty space. The threads assigned to the top and bottom rows processed empty space
+				(background color lookups) and finished almost immediately. Meanwhile, the threads assigned to the
+				middle rows had to traverse the BVH and shade complex geometry. Because the fast threads could not
+				"steal" work from the slow threads, the total render time was dictated entirely by the slowest thread.
+			</p>
+			<p>
+				The <strong>Row Dynamic</strong> method uses a shared atomic counter:
+				<code>std::atomic&lt;int&gt; next_scanline(0)</code>. Threads continuously increment this counter to
+				fetch the next available row. In the Galactica scene, this allowed the threads that finished the empty
+				background rows to immediately jump in and help render the spaceship, distributing the heavy workload
+				across all cores.
+			</p>
+
+			<h3>2. Granularity: The Trade-off Between Locality and Overhead</h3>
+			<p>
+				My results show that <strong>Square Dynamic</strong> (Tiled) generally outperforms <strong>Pixel
+					Dynamic</strong>, particularly in lighter scenes. For example, in Galactica (12 threads), Square
+				Dynamic finished in <strong>12232 ms</strong> compared to Pixel Dynamic's <strong>12494 ms</strong>.
+				While small, this difference highlights the cost of atomic operations.
+			</p>
+			<p>
+				In the <code>pixel_dynamic</code> implementation, the atomic variable <code>next_pixel</code> is
+				incremented for <em>every single pixel</em>. For a 1920x1080 image, this results in over 2 million
+				atomic lock-unlock cycles per frame, creating significant bus contention. The
+				<code>square_dynamic</code> method, however, processes pixels in <strong>32x32 blocks</strong>. This
+				reduces the synchronization overhead by a factor of 1024. Furthermore, this method improves
+				<strong>Spatial Locality</strong>. Pixels within a small tile usually hit the same scene objects. This
+				means the relevant BVH nodes and texture data loaded into the L1/L2 cache for the first pixel in a tile
+				are likely still hot for the subsequent pixels. The scattered access pattern of
+				<code>pixel_dynamic</code> effectively destroys this cache coherency.
+			</p>
+
+			<h3>3. Scene Complexity and Material Recursion</h3>
+			<p>
+				The <strong>MyTap</strong> scene was computationally the heaviest, taking ~151 seconds even with 12
+				threads. This is due to the material properties defined in <code>mytap_final.json</code>. The scene
+				utilizes <strong>Conductor</strong> (mirror-like) and <strong>Dielectric</strong> (glass-like)
+				materials.
+			</p>
+			<p>
+				In <code>src/ray_trace.cpp</code>, the <code>trace_rec</code> function handles these materials
+				recursively. A <code>Dielectric</code> material triggers both a reflection ray and a refraction ray
+				(unless total internal reflection occurs). This branching factor, combined with a recursion depth of 6,
+				causes the number of rays traced per pixel to explode exponentially compared to simple diffuse surfaces.
+				This high computational cost per pixel masks the scheduling overhead, which explains why
+				<code>pixel_dynamic</code> performed surprisingly well in this specific scene, the math heavily
+				outweighed the atomic locks.
+			</p>
+
+			<h3>4. Hardware Scalability Limits</h3>
+			<p>
+				My test system is an Intel Core i5-12400F, which has 6 Performance cores and supports 12 logical threads
+				via Hyper-Threading. The data shows strong scaling up to 12 threads, but a plateau or regression at 16
+				threads. For instance, in the <strong>MyTap Row Dynamic</strong> test, the time increased from
+				<strong>151709 ms</strong> (12 threads) to <strong>155771 ms</strong> (16 threads).
+			</p>
+			<p>
+				Since the CPU can only physically execute 12 threads simultaneously, launching 16 threads forces the OS
+				to time-slice them. This introduces <strong>Context Switching</strong> overhead, where the CPU must save
+				and restore register states to switch between active threads. Additionally, 16 threads fighting for the
+				same memory bandwidth likely saturated the bus and caused cache thrashing, where threads actively
+				evicted each other's data from the shared L3 cache. This confirms that for CPU-bound tasks like ray
+				tracing, the thread count should match the logical core count of the hardware.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="container">
+			<h2>Future Work</h2>
+			<p>
+				The results from my multi-threading evaluation demonstrate that while dynamic scheduling solves the load
+				balancing problem, it eventually hits a memory bandwidth wall. To push performance further, future
+				optimizations must focus on data locality and instruction-level parallelism. Below are the proposed
+				strategies for the next iteration of the ray tracer.
+			</p>
+
+			<h3>1. Cache-Coherent Tile Rendering</h3>
+			<p>
+				The first major improvement is to refine the "Square Dynamic" strategy into a fully
+				<strong>Cache-Coherent Tile Rendering</strong> system. Currently, threads write to a global image
+				buffer and read randomly from the scene heap, which causes frequent cache misses.
+			</p>
+			<p>
+				In this proposed system, each thread would be assigned a "Tile" and
+				a dedicated <strong>Local Framebuffer</strong> that fits entirely within the CPU's L1 or L2 cache. All
+				intermediate pixel calculations would occur in this super-fast local memory. Only when a bucket is fully
+				rendered would the data be written back to the main system memory in a single continuous burst. This
+				minimizes "false sharing" (where threads invalidate each other's cache lines) and drastically reduces
+				main RAM latency.
+			</p>
+
+			<h3>2. SIMD Packet Tracing</h3>
+			<p>
+				My current renderer uses SIMD (SSE4.1) to speed up vector math for a <em>single</em> ray. A more
+				advanced technique is <strong>SIMD Packet Tracing</strong>. Instead of tracing one ray at a time, we can
+				bundle coherent rays into a "packet".
+			</p>
+			<p>
+				Using AVX or SSE instructions, we can then intersect 4 or 8 rays against scene geometry simultaneously.
+				Because rays from adjacent pixels travel in almost the same direction, they will likely traverse the BVH
+				tree together, allowing us to amortize the cost of fetching node data from memory across multiple rays.
+				This effectively multiplies the throughput of the intersection engine.
+			</p>
+
+			<h3>3. Adaptive Sampling</h3>
+			<p>
+				Currently, every pixel receives the same number of samples, regardless of its
+				complexity. This is inefficient. A blue sky converges to a noise-free color in just a few samples, while
+				a glass refractive object might need hundreds.
+			</p>
+			<p>
+				<strong>Adaptive Sampling</strong> introduces a variance check. We can fire a small initial batch of
+				rays and measure the standard deviation of the pixel's color. If the variance is low (the
+				pixel is stable), we stop tracing. If it is high (the pixel is noisy), we continue firing rays up to the
+				maximum count. This ensures computational power is spent only where it actually improves image quality,
+				potentially reducing render times by 50% or more for simple scenes.
+			</p>
+
+			<h3>4. CPU Wavefront Path Tracing</h3>
+			<p>
+				The most radical architectural change would be to implement a <strong>Wavefront Path Tracing</strong>
+				architecture. Traditional recursive ray tracers suffer from "branch divergence", one ray might hit a
+				wall
+				(diffuse), while its neighbor hits glass (refraction), causing the CPU pipeline to stall as it switches
+				tasks.
+			</p>
+			<p>
+				In a wavefront design, we do not trace a path to completion in one go. Instead, we break the rendering
+				loop into separate stages (queues): <em>Logic</em>, <em>Material</em>, and <em>Shadow</em>. We generate
+				millions of rays and sort them into these queues. For example, we process <strong>all</strong> diffuse
+				bounces together, then <strong>all</strong> shadow rays together. This ensures that the CPU always
+				executes the same instruction on massive blocks of data, maximizing cache usage and SIMD efficiency.
+			</p>
+		</div>
+
+		<div class="container" id="references">
+			<h2>References</h2>
+			<ol style="list-style-type: upper-roman;">
+				<li style="margin-bottom: 20px;">
+					<strong>Badouel, Didier & Bouatouch, Kadi & Priol, Thierry. (1990). Ray tracing on distributed
+						memory parallel computers: strategies for distributing computations and data. </strong>
+				</li>
+				<li style="margin-bottom: 20px;">
+					<strong>Chalmers, A. Parallel and distributed photo-realistic rendering. Course Notes for
+						SIGGRAPH.</strong>
+				</li>
+			</ol>
+		</div>
+
+	</div>
+
+	<br />
+	<br />
+</body>
+
+</html>

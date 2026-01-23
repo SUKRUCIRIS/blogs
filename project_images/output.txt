@@ -1,0 +1,803 @@
+
+>>> NEW RUN <<<
+Tests Started
+SIMD On / Thread count: 4 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 4861 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 49340 ms
+SIMD On / Thread count: 8 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 4951 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 26796 ms
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 4974 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 26085 ms
+SIMD On / Thread count: 16 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5060 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 25785 ms
+SIMD On / Thread count: 4 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5056 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 74168 ms
+SIMD On / Thread count: 8 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5016 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 41184 ms
+SIMD On / Thread count: 12 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5011 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 33852 ms
+SIMD On / Thread count: 16 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 4944 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 29998 ms
+SIMD On / Thread count: 4 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5144 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 47284 ms
+SIMD On / Thread count: 8 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 4945 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 30050 ms
+SIMD On / Thread count: 12 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 4958 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 26080 ms
+SIMD On / Thread count: 16 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 4916 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 26534 ms
+SIMD On / Thread count: 4 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5020 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 47129 ms
+SIMD On / Thread count: 8 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5085 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 29461 ms
+SIMD On / Thread count: 12 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5016 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 25808 ms
+SIMD On / Thread count: 16 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 437649 (+437645 for meshes)
+Loaded PLY: 437645 vertices, 869928 tris. Smooth Shading: OFF, UVs: OFF
+Mesh instance id: 3 added for base id: 2
+Mesh instance id: 4 added for base id: 3
+Mesh instance id: 5 added for base id: 4
+Mesh instance id: 6 added for base id: 5
+shapes parsed
+JSON parsing and grid preparation is done: 5000 ms
+focusing_dragons.png started
+focusing_dragons.png rendering done: 26069 ms
+SIMD On / Thread count: 4 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 98 ms
+mytap_final.png started
+mytap_final.png rendering done: 263300 ms
+SIMD On / Thread count: 8 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 75 ms
+mytap_final.png started
+mytap_final.png rendering done: 175687 ms
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 63 ms
+mytap_final.png started
+mytap_final.png rendering done: 151709 ms
+SIMD On / Thread count: 16 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 65 ms
+mytap_final.png started
+mytap_final.png rendering done: 155771 ms
+SIMD On / Thread count: 4 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 65 ms
+mytap_final.png started
+mytap_final.png rendering done: 294933 ms
+SIMD On / Thread count: 8 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 66 ms
+mytap_final.png started
+mytap_final.png rendering done: 189056 ms
+SIMD On / Thread count: 12 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 67 ms
+mytap_final.png started
+mytap_final.png rendering done: 164834 ms
+SIMD On / Thread count: 16 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 67 ms
+mytap_final.png started
+mytap_final.png rendering done: 162409 ms
+SIMD On / Thread count: 4 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 70 ms
+mytap_final.png started
+mytap_final.png rendering done: 261159 ms
+SIMD On / Thread count: 8 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 63 ms
+mytap_final.png started
+mytap_final.png rendering done: 173653 ms
+SIMD On / Thread count: 12 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 64 ms
+mytap_final.png started
+mytap_final.png rendering done: 152879 ms
+SIMD On / Thread count: 16 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 65 ms
+mytap_final.png started
+mytap_final.png rendering done: 156988 ms
+SIMD On / Thread count: 4 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 66 ms
+mytap_final.png started
+mytap_final.png rendering done: 264211 ms
+SIMD On / Thread count: 8 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 63 ms
+mytap_final.png started
+mytap_final.png rendering done: 176726 ms
+SIMD On / Thread count: 12 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 63 ms
+mytap_final.png started
+mytap_final.png rendering done: 151030 ms
+SIMD On / Thread count: 16 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+DEBUG: reserved vertices capacity: 23621 (+23621 for meshes)
+Loaded PLY: 24 vertices, 10 tris. Smooth Shading: OFF, UVs: OFF
+Loaded PLY: 4 vertices, 2 tris. Smooth Shading: OFF, UVs: ON
+Loaded PLY: 5374 vertices, 10484 tris. Smooth Shading: ON, UVs: OFF
+Loaded PLY: 18219 vertices, 36134 tris. Smooth Shading: ON, UVs: OFF
+shapes parsed
+JSON parsing and grid preparation is done: 60 ms
+mytap_final.png started
+mytap_final.png rendering done: 153712 ms
+SIMD On / Thread count: 4 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 72 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 24387 ms
+SIMD On / Thread count: 8 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 14998 ms
+SIMD On / Thread count: 12 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 12930 ms
+SIMD On / Thread count: 16 / Threading type: row_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 13037 ms
+SIMD On / Thread count: 4 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 49 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 56227 ms
+SIMD On / Thread count: 8 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 50 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 35708 ms
+SIMD On / Thread count: 12 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 48 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 24436 ms
+SIMD On / Thread count: 16 / Threading type: row_static
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 48 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 21275 ms
+SIMD On / Thread count: 4 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 51 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 23333 ms
+SIMD On / Thread count: 8 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 13976 ms
+SIMD On / Thread count: 12 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 54 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 12232 ms
+SIMD On / Thread count: 16 / Threading type: square_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 48 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 12652 ms
+SIMD On / Thread count: 4 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 23762 ms
+SIMD On / Thread count: 8 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 14592 ms
+SIMD On / Thread count: 12 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 47 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 12494 ms
+SIMD On / Thread count: 16 / Threading type: pixel_dynamic
+JSON parsing started
+transformations parsed
+cameras parsed
+vertices parsed
+materials parsed
+images parsed
+textures parsed
+uvs parsed
+shapes parsed
+JSON parsing and grid preparation is done: 48 ms
+galactica_dynamic.png started
+galactica_dynamic.png rendering done: 12569 ms
