@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şükrü Çiriş Blogs</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="index.html">Main Page</a></li>
+        <li><a href="raytracer.html">Ray Tracer</a></li>
+        <li><a href="hdr.html">HDR</a></li>
+        <li class="sp">
+            <a href="https://sukruciris.com">Who is Şükrü Çiriş?</a>
+        </li>
+    </ul>
+
+    <br />
+    <br />
+
+    <div style="text-align: left; max-width: 70vw; margin: auto; font-weight: bold;">
+        <h1>CENG 587 Homework 1: High Dynamic Range Imaging (Option 1 — Debevec &amp; Malik)</h1>
+
+        <h2>1. Introduction</h2>
+        <p>
+            Hello, my name is Şükrü Çiriş. In this blog, i will explain you my HDR homework 1.
+            Standard digital cameras capture the real scenes with a very limited brightness range. Every color channel
+            is stored between 0 and 255. However, real outdoor and indoor places have much larger light differences
+            between dark corners and bright areas near the lamps. Because of this limit, a single photo often has
+            completely white sky or black shadows.
+        </p>
+        <p>
+            Debevec and Malik model this problem by combining several photos which taken with different exposure times.
+            Suppose we have a set of normal photos from the same scene. When exposure time is changed step by step,
+            different brightness parts are captured clearly in each photo. Camera sensors don't convert incoming light
+            energy into pixel values in a linear way. Instead, non-linear processing is applied inside the camera before
+            saving the image: this curve is called as the camera response function. First, logarithmic camera response
+            curve is found from selected pixels, than full HDR radiance map is built.
+        </p>
+
+        <h2>2. Method Overview</h2>
+        <p>
+            In the paper, each pixel value Z is related to scene irradiance E multiplied by exposure time dt. Here, dt
+            is the shutter time of each photo. Because the camera sensor curve is monotonic, its inverse function exists
+            and we can take the natural logarithm of both sides. So, the main equation becomes g(Z) = ln(E) + ln(dt),
+            where both the curve values g(Z) and pixel irradiances ln(E) are unknown.
+        </p>
+        <p>
+            In this setup, there is two unknown parts in the linear system. How can we find both of them from pixel
+            values? These unknowns are calculated by minimizing a least squares objective function with a smoothness
+            weight lambda. Also, a hat weight function w(z) is used because pixel values near 0 and 255 are saturated
+            and noisy, so middle values around 128 get the highest weight. Finally, g(128) = 0 is fixed as a constraint
+            so the curve stays in place.
+        </p>
+
+        <h2>3. Implementation and Difficulties</h2>
+        <p>
+            For Option 1, the algorithm was coded in C++ without external matrix libraries. Every input photo is loaded
+            into a 8-bit RGB array with <code>stb_image</code> and saved as an HDR file with
+            <code>stb_image_write</code>. Here, 100 sample pixels are chosen with equal steps. In
+            <code>ResponseCurveSolver</code>, the overdetermined matrix A is solved by Householder QR decomposition
+            instead of normal equations. When we know the response curve for red, green and blue channels, original HDR
+            image is obtained by combining all exposures with their weights.
+        </p>
+        <p>
+            During the implementation of the Debevec algorithm, several difficulties were faced. First, putting the
+            data equations, smoothness second-derivative terms and the g(128) = 0 constraint into one big matrix A was
+            quite confusing. In early tries, the column index for log irradiance was wrong, so j. image's i. pixel was
+            matched with the wrong row. Second, the exposure times were not written inside the shared image files.
+            Different exposure steps like powers of two (1, 2, 4, 8) and 1, 2, 3, 4 were tried in <code>main.cpp</code>,
+            but increasing the exposure by 0.5 at each step gave much cleaner curves. Third, choosing sample pixels from
+            only one part of the image left empty gaps in the curve, so uniform stride across the whole image was used.
+        </p>
+        <p>
+            Another big problem happened during the radiance map step. In the paper, the hat weight function gives zero
+            weight to 0 and 255. However, in very bright spots like lamps or windows, a pixel can be 255 in every single
+            photo of the sequence. When all weights became zero for that pixel, dividing by total weight caused a
+            division-by-zero error and left black NaN dots on the HDR image. To fix this bug, +1 was added to the weight
+            formula so it doesn't touch zero while a middle exposure fallback was also added.
+        </p>
+
+        <h2>4. Experiments and Results</h2>
+        <p>
+            Proposed method is tested on eleven exposure folders. Here, linear color values stays in [0, 1] range. In
+            <code>virtual_camera_srgb</code> folder, pixel values follow the standard sRGB curve, which uses a simple
+            formula with a power function in its upper part. This camera mapping doesn't touch the scene radiance ratio.
+            The recovered curve from <code>virtual_camera_srgb</code> matches with the ground truth shape, while noisy
+            folders were experimented to see how noise bends the curve.
+        </p>
+        <p>
+            Real camera sequences from Nikon D2H, Nikon Coolpix E5400, Minolta DiMAGE A1 and Canon EOS 550D were also
+            tested. The three color channel solvers are linked together in a loop. In these real scenes, scene
+            brightness has more than four orders of magnitude between dark shadows and bright windows, where brightest
+            areas were brightened by 8000 times compared to the darkest parts. If the sample count or image count would
+            be chosen much higher, the matrix A is too big for fast QR solving and running time reaches to several
+            seconds. In the tests, CRF recovery took around 2.3 to 4.9 seconds, while radiance map creation took longer
+            on high-resolution Canon EOS 550D photos.
+        </p>
+
+        <h3>Running Times Table</h3>
+        <table border="1" cellpadding="6" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Sequence Folder</th>
+                    <th>Image Count</th>
+                    <th>CRF Recovery (ms)</th>
+                    <th>Radiance Map (ms)</th>
+                    <th>Total Runtime (ms)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nikon_D2H</td>
+                    <td>9</td>
+                    <td>3003.10</td>
+                    <td>2396.09</td>
+                    <td>5399.20</td>
+                </tr>
+                <tr>
+                    <td>Nikon_Coolpix_E5400</td>
+                    <td>16</td>
+                    <td>4888.76</td>
+                    <td>5040.41</td>
+                    <td>9929.17</td>
+                </tr>
+                <tr>
+                    <td>Minolta_DiMAGE_A1</td>
+                    <td>13</td>
+                    <td>4017.39</td>
+                    <td>1574.19</td>
+                    <td>5591.58</td>
+                </tr>
+                <tr>
+                    <td>Canon_EOS_550D</td>
+                    <td>9</td>
+                    <td>2922.32</td>
+                    <td>10641.87</td>
+                    <td>13564.19</td>
+                </tr>
+                <tr>
+                    <td>virtual_camera_linear</td>
+                    <td>7</td>
+                    <td>2348.85</td>
+                    <td>505.29</td>
+                    <td>2854.15</td>
+                </tr>
+                <tr>
+                    <td>virtual_camera_srgb</td>
+                    <td>9</td>
+                    <td>2907.52</td>
+                    <td>619.13</td>
+                    <td>3526.65</td>
+                </tr>
+                <tr>
+                    <td>virtual_camera_noise25</td>
+                    <td>9</td>
+                    <td>2958.02</td>
+                    <td>624.54</td>
+                    <td>3582.55</td>
+                </tr>
+                <tr>
+                    <td>virtual_camera_noise50</td>
+                    <td>9</td>
+                    <td>2930.47</td>
+                    <td>626.54</td>
+                    <td>3557.01</td>
+                </tr>
+                <tr>
+                    <td>virtual_camera_noise100</td>
+                    <td>9</td>
+                    <td>2934.28</td>
+                    <td>626.41</td>
+                    <td>3560.68</td>
+                </tr>
+                <tr>
+                    <td>virtual_camera_noise150</td>
+                    <td>9</td>
+                    <td>2912.92</td>
+                    <td>620.22</td>
+                    <td>3533.13</td>
+                </tr>
+                <tr>
+                    <td>GalaxyS25</td>
+                    <td>9</td>
+                    <td>2903.56</td>
+                    <td>2520.96</td>
+                    <td>5424.52</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Resulting HDR Images</h3>
+        <div class="slideshow-container" style="max-height: 50vw; margin: auto;">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 10</div>
+                <img src="./hdr_hw1_images/Nikon_D2H.png">
+                <div class="text">Nikon_D2H.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 10</div>
+                <img src="./hdr_hw1_images/Nikon_Coolpix_E5400.png">
+                <div class="text">Nikon_Coolpix_E5400.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 10</div>
+                <img src="./hdr_hw1_images/Minolta_DiMAGE_A1.png">
+                <div class="text">Minolta_DiMAGE_A1.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 10</div>
+                <img src="./hdr_hw1_images/Canon_EOS_550D.png">
+                <div class="text">Canon_EOS_550D.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 10</div>
+                <img src="./hdr_hw1_images/virtual_camera_linear.png">
+                <div class="text">virtual_camera_linear.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 10</div>
+                <img src="./hdr_hw1_images/virtual_camera_srgb.png">
+                <div class="text">virtual_camera_srgb.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 10</div>
+                <img src="./hdr_hw1_images/virtual_camera_noise25.png">
+                <div class="text">virtual_camera_noise25.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 10</div>
+                <img src="./hdr_hw1_images/virtual_camera_noise50.png">
+                <div class="text">virtual_camera_noise50.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 10</div>
+                <img src="./hdr_hw1_images/virtual_camera_noise100.png">
+                <div class="text">virtual_camera_noise100.png</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 10</div>
+                <img src="./hdr_hw1_images/virtual_camera_noise150.png">
+                <div class="text">virtual_camera_noise150.png</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br />
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+        </div>
+
+        <h2>5. Samsung Galaxy S25 Camera</h2>
+        <p>
+            For the phone experiment, 9 photos with different exposures were taken with a Samsung Galaxy S25 camera. A
+            tripod was not used in this test. The phone was held by hand as steady as possible, so the frames weren't
+            aligned completely while exposure values were changed manually from +2 to -2 with 0.5 steps. Then, the
+            photos were sent to the computer over WhatsApp. Even with small hand movement and WhatsApp compression,
+            the algorithm recovered a smooth S-shaped response curve for the phone.
+        </p>
+        <h3 style="text-align: center;">9 photos with different exposures Samsung Galaxy S25 camera</h3>
+        <div class="slideshow-container" style="max-height: 50vw; margin: auto;">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 9</div>
+                <img src="./hdr_hw1_images/0.jpeg">
+                <div class="text">0.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 9</div>
+                <img src="./hdr_hw1_images/1.jpeg">
+                <div class="text">1.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 9</div>
+                <img src="./hdr_hw1_images/2.jpeg">
+                <div class="text">2.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 9</div>
+                <img src="./hdr_hw1_images/3.jpeg">
+                <div class="text">3.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 9</div>
+                <img src="./hdr_hw1_images/4.jpeg">
+                <div class="text">4.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 9</div>
+                <img src="./hdr_hw1_images/5.jpeg">
+                <div class="text">5.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 9</div>
+                <img src="./hdr_hw1_images/6.jpeg">
+                <div class="text">6.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 9</div>
+                <img src="./hdr_hw1_images/7.jpeg">
+                <div class="text">7.jpeg</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 9</div>
+                <img src="./hdr_hw1_images/8.jpeg">
+                <div class="text">8.jpeg</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br />
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+        <br />
+        <script src="./slider.js"></script>
+        <br />
+        <br />
+        <div style="text-align: center;">
+            <h3>Resulting HDR image of Samsung Galaxy S25 camera</h3>
+            <figure>
+                <img src="./hdr_hw1_images/GalaxyS25.png" alt="GalaxyS25.png" width="600">
+                <figcaption>GalaxyS25.png</figcaption>
+            </figure>
+        </div>
+        <br />
+        <br />
+        <div style="text-align: center;">
+            <h3>Response Function of Samsung Galaxy S25 camera</h3>
+            <figure>
+                <img src="./hdr_hw1_images/GalaxyS25_crf.png" alt="GalaxyS25_crf.png" width="600">
+                <figcaption>GalaxyS25_crf.png</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <br />
+    <br />
+</body>
+
+</html>
